@@ -1,0 +1,46 @@
+-
+- TopicCard
+	- Summary
+		- [IFTTT](https://ifttt.com/my_applets)
+			- diigo to drobox
+			- mail to cubox
+		- [zapier](https://zapier.com/app/dashboard)
+			- gmail attachment to dropbox
+		- [Integrately](https://app.integrately.com/my-automations)
+			- Inoreader Star to cubox folder
+	- Relate
+		-
+		-
+		-
+	- 01-成品文章
+	  collapsed:: true
+		-
+		-
+		-
+	- 02-半成品卡片
+	  collapsed:: true
+		-
+		-
+		-
+	- 03-碎片笔记
+		- 几个常见场景
+			- 將 Gmail 附件自動發送到 Dropbox
+				-
+		-
+		-
+	- 04-收集资料
+		- 集锦
+			-
+			-
+			-
+		- 文章
+			- [如何將 Gmail 附件自動發送到 Dropbox – 綜合新聞](https://www.eiminu.com/%E5%A6%82%E4%BD%95%E5%B0%87-gmail-%E9%99%84%E4%BB%B6%E8%87%AA%E5%8B%95%E7%99%BC%E9%80%81%E5%88%B0-dropbox.html)
+			-
+			-
+		- 其它
+			-
+			-
+			-
+	-
+	-
+	-
