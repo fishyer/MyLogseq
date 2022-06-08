@@ -37,4 +37,4 @@ alias:: 目录
   collapsed:: true
 	- [[编程入门-学习群-群说明]]
 	- {{embed [[欢迎加入]]}}
--
+- {{renderer :tocgen, [[如何自动发布obsidian库或logseq库为网站]] }}
