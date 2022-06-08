@@ -1,3 +1,5 @@
+#! https://zhuanlan.zhihu.com/p/526053556
+
 # 如何自动发布 obsidian 库或 logseq 库为网站
 
 > 其实就是自动将 md 文件渲染为 html 文件，本质上和 hugo、hexo、Jekyll 等博客渲染工具一样的。但是本方法支持全文搜索、双链和关系图谱。
@@ -21,21 +23,26 @@
   ![Untitled](https://yupic.oss-cn-shanghai.aliyuncs.com/Untitled.png)
 
 - 1-2-配置 logseq 为全部公开
+
   - 虽然 logseq 能在指定 md 文件里添加`public:: true` 属性来公开此页面，但是批量管理很麻烦，建议直接将所有可公开的 md 存放到一个库里面，或放在一个单独的文件夹通过 git 忽略配置来隐藏私有文件夹(不提交到 gihub 就不会参与后续的编译了)
   - logseq 库的 config.edn 路径
 
     ![Untitled](https://yupic.oss-cn-shanghai.aliyuncs.com/Untitled%201.png)
 
   - 修改 logseq 的 config.edn，我的配置文件已存放到 github-gist: [logseq-config.edn](https://gist.github.com/fishyer/ec7520ae794c5456470a0c62dc30f2c0) ，直接复制粘贴即可
+
   ```dart
   :publishing/all-pages-public? true
   :default-home {:page "README" :sidebar ["contents"]}
   ```
+
   - 如上，可以配置网站的起始页面为 README.md
+
 - 1-3-配置 logseq 的 git 自动提交
   - 本来 Obsidian 库也有 git 插件自动提交，但是好像没法指定特定文件夹，只能全库提交，这里只提交公开的 logseq 库
-  ![Untitled](https://yupic.oss-cn-shanghai.aliyuncs.com/202206081719947.png)
+    ![Untitled](https://yupic.oss-cn-shanghai.aliyuncs.com/202206081719947.png)
 - 1-4-配置 git hooks，commit 时自动 push 到 github 仓库
+
   - 主要是因为 logseq 的 git，只能自动 commit，不能自动 push，故需添加 git hooks
   - 路径如下
 
@@ -149,22 +156,28 @@
   - 建议优先选择.com .cn .net 之类的域名，不然小心在微信里面打不开,比如.me .top .app 等小众域名
   - 推荐选择国外域名的原因，是因为可以免备案，直接在国内的阿里云买域名也可以，就是必须备案了，感觉备案挺麻烦的，要上传很多资料，还只能线下办理，懒得去折腾
 - 4-2-在 GoDaddy 的管理后台，设置 DNS 域名服务器为 CloudFlare
+
   - 配置路径为：
+
     - 示例：[https://dcc.godaddy.com/control/fishyer.com/dns?plid=1](https://dcc.godaddy.com/control/fishyer.com/dns?plid=1)
 
       ![Untitled](https://yupic.oss-cn-shanghai.aliyuncs.com/202206081720407.png)
 
       ![Untitled](https://yupic.oss-cn-shanghai.aliyuncs.com/202206081720931.png)
+
   - CloudFlare 服务器
 
     ```bash
     ned.ns.cloudflare.com
     gabriella.ns.cloudflare.com
     ```
+
 - 4-3- 在自己的[CloudFlare 管理后台](https://dash.cloudflare.com/)，添加一个 DNS 解析记录，解析到 Vercel-DNS
+
   - 类型为 CNAME，名称为 logseq（实际上就是 logseq.fishyer.com，可自定义，不过建议命名为这个，方便区分和记忆，因为还可能会有 notion.fishyer.com mweb.fishyer.com hugo.fishyer.com 等等），内容为`cname.vercel-dns.com` ，代理状态选仅限 DNS（不需要 CloudFlare 的 cdn，因为 Vercel 自带 cdn，比 CloudFlare 的 cdn 好像还快一点）
 
     ![Untitled](https://yupic.oss-cn-shanghai.aliyuncs.com/202206081720275.png)
+
 - 4-4-在 Vercel 的项目配置里面，输入自定义的域名，比如：logseq.fishyer.com ，然后 Add
 
 ![Untitled](https://yupic.oss-cn-shanghai.aliyuncs.com/202206081720880.png)
@@ -189,7 +202,7 @@
 - 3-等待 github action 执行完毕后，导入到 vercel 中，等待 Vercel 发布完成，就大功告成了 🎉
   - 效果可见：[https://my-logseq-template.vercel.app](https://my-logseq-template.vercel.app/#/page/README)
   - 需要注意的点就是需要修改一下 vercel 中对于的 git 分支为 gh-pages
-  ![Untitled](https://yupic.oss-cn-shanghai.aliyuncs.com/202206081721304.png)
+    ![Untitled](https://yupic.oss-cn-shanghai.aliyuncs.com/202206081721304.png)
 - 极简版本的注意事项：
   - 1-注意仓库的名称和分支的名称要和 git hooks 里面的 post-commit 脚本对应，不然会导致自动 push 失效
     - 为了让自动 commit 和自动 push 生效，logseq 软件需要开着，并打开了这个仓库
