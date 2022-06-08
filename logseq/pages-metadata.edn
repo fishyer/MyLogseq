@@ -16,24 +16,9 @@
  {:block/name "04-outline/gtd",
   :block/created-at 1652176204749,
   :block/updated-at 1652176204749}
- {:block/name "04-outline/obsidian",
-  :block/created-at 1652176204755,
-  :block/updated-at 1652176204755}
- {:block/name "04-outline/okr",
-  :block/created-at 1652176204760,
-  :block/updated-at 1652176204760}
- {:block/name "04-outline/omnifocus",
-  :block/created-at 1652176204753,
-  :block/updated-at 1652176204753}
- {:block/name "04-outline/pkm",
-  :block/created-at 1652176204750,
-  :block/updated-at 1652176204750}
  {:block/name "04-outline/vscode",
   :block/created-at 1652044818737,
   :block/updated-at 1652044818737}
- {:block/name "04-outline/workflowy",
-  :block/created-at 1652176204754,
-  :block/updated-at 1652176204754}
  {:block/name "2022-06-08",
   :block/created-at 1654675604195,
   :block/updated-at 1654675604195}
