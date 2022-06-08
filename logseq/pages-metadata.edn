@@ -21,7 +21,7 @@
   :block/updated-at 1652044818737}
  {:block/name "2022-06-08",
   :block/created-at 1654675604195,
-  :block/updated-at 1654675604195}
+  :block/updated-at 1654680188902}
  {:block/name "625f12b7-b1f5-4c30-8ab3-54ef51f7ed01",
   :block/created-at 1652017672465,
   :block/updated-at 1652017672465}
@@ -54,7 +54,7 @@
   :block/updated-at 1652094776861}
  {:block/name "contents",
   :block/created-at 1652030050997,
-  :block/updated-at 1654361666234}
+  :block/updated-at 1654679320154}
  {:block/name "cubox",
   :block/created-at 1652018118352,
   :block/updated-at 1652018118352}
@@ -73,6 +73,9 @@
  {:block/name "eagle",
   :block/created-at 1652157387201,
   :block/updated-at 1652157387201}
+ {:block/name "faq",
+  :block/created-at 1654676821418,
+  :block/updated-at 1654676821418}
  {:block/name "favorites",
   :block/created-at 1652017781686,
   :block/updated-at 1652017781686}
@@ -204,7 +207,7 @@
   :block/updated-at 1652096815765}
  {:block/name "readme",
   :block/created-at 1652029780284,
-  :block/updated-at 1652177094390}
+  :block/updated-at 1654679271158}
  {:block/name "rss的折腾之路",
   :block/created-at 1652018118367,
   :block/updated-at 1652018118367}
@@ -223,6 +226,9 @@
  {:block/name "tortoisegit",
   :block/created-at 1652041122737,
   :block/updated-at 1652041122737}
+ {:block/name "true` 属性来公开此页面",
+  :block/created-at 1654680181791,
+  :block/updated-at 1654680181791}
  {:block/name "typora",
   :block/created-at 1652035878508,
   :block/updated-at 1652035878508}
@@ -271,6 +277,9 @@
  {:block/name "任务管理",
   :block/created-at 1652094778591,
   :block/updated-at 1652094778591}
+ {:block/name "但是批量管理很麻烦",
+  :block/created-at 1654680181792,
+  :block/updated-at 1654680181792}
  {:block/name "何帆通识课系列书单",
   :block/created-at 1652048450807,
   :block/updated-at 1652048450807}
@@ -304,6 +313,9 @@
  {:block/name "卡片笔记",
   :block/created-at 1652035878480,
   :block/updated-at 1652035878480}
+ {:block/name "历史卡片日志",
+  :block/created-at 1652120584159,
+  :block/updated-at 1654677181042}
  {:block/name "及时春雨",
   :block/created-at 1652035878436,
   :block/updated-at 1652035878436}
@@ -352,6 +364,9 @@
  {:block/name "如何同步本地markdown文件夹到语雀",
   :block/created-at 1652035878484,
   :block/updated-at 1652035878484}
+ {:block/name "如何自动发布obsidian库或logseq库为网站",
+  :block/created-at 1654682251257,
+  :block/updated-at 1654682251257}
  {:block/name "学习目标",
   :block/created-at 1652344113117,
   :block/updated-at 1652344113117}
@@ -367,6 +382,9 @@
  {:block/name "建群目的",
   :block/created-at 1652030054512,
   :block/updated-at 1654675833139}
+ {:block/name "建议直接将所有可公开的md存放到一个库里面",
+  :block/created-at 1654680181792,
+  :block/updated-at 1654680181792}
  {:block/name "开智书单108本",
   :block/created-at 1652048450808,
   :block/updated-at 1652048450808}
@@ -388,6 +406,9 @@
  {:block/name "思维模型知识库",
   :block/created-at 1652044818799,
   :block/updated-at 1652044818799}
+ {:block/name "或放在一个单独的文件夹通过git忽略配置来隐藏私有文件夹(不提交到gihub就不会参与后续的编译了)",
+  :block/created-at 1654680181793,
+  :block/updated-at 1654680181793}
  {:block/name "拿铁阅读系列书单",
   :block/created-at 1652048450809,
   :block/updated-at 1652048450809}
@@ -418,9 +439,6 @@
  {:block/name "时间管理",
   :block/created-at 1652094778587,
   :block/updated-at 1652094778587}
- {:block/name "更新日志",
-  :block/created-at 1652120584159,
-  :block/updated-at 1652159754227}
  {:block/name "机器人",
   :block/created-at 1652017672469,
   :block/updated-at 1652017672469}
@@ -496,9 +514,6 @@
  {:block/name "编程入门-学习群-百度网盘",
   :block/created-at 1654361399260,
   :block/updated-at 1654361399358}
- {:block/name "编程入门-学习群-群公告",
-  :block/created-at 1654675603025,
-  :block/updated-at 1654675603025}
  {:block/name "编程入门-学习群-群说明",
   :block/created-at 1654361440808,
   :block/updated-at 1654361558592}
