@@ -1,0 +1,218 @@
+> 其实就是自动将md文件渲染为html文件，本质上和hugo、hexo、Jekyll等博客渲染工具一样的。但是本方法支持全文搜索、双链和关系图谱。
+> 
+
+文章目录：
+
+效果可见： [logseq.fishyer.com](http://logseq.fishyer.com) 
+
+源文件Github地址：[fishyer/MyLogseq: 我的Logseq卡片笔记仓库](https://github.com/fishyer/MyLogseq)
+
+适用场景：
+
+- 1-分享双链大纲，因为WorkFlowy在国内访问太慢了，而且不支持双链。超适合分享一些卡片笔记，一个卡片笔记的案例：[Logseq](https://logseq.fishyer.com/#/page/logseq)，可以存放一些主题的相关资源、书签、笔记，一定程序上可以代替书签管理工具，并分享书签集锦。
+- 2-批量分享md文件，比如一些付费内容，通过MarkDownLoad插件下载为本地md文件后，可以通过这种方式分享
+    - 以前试过批量上传md到Notion分享，但是批量上传md到Notion很不方便，慢，而且会改变md格式，不是很方便
+    
+
+只想快速部署，不关心具体细节的，可以直接移步最后：[极简部署的模板](https://www.notion.so/370803ddbaef45e1a5683edefafb2461) 
+
+# 1-自动提交到github仓库
+
+- 1-1-将logseq库作为obsidian库的子文件夹,将要公开的md文件移动到logseq库的pages里面
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4ef2525b-f9ff-4f63-9574-0619fbba35c5/Untitled.png)
+    
+- 1-2-配置logseq为全部公开
+    - 虽然logseq能在指定md文件里添加`public:: true` 属性来公开此页面，但是批量管理很麻烦，建议直接将所有可公开的md存放到一个库里面，或放在一个单独的文件夹通过git忽略配置来隐藏私有文件夹(不提交到gihub就不会参与后续的编译了)
+    - logseq库的config.edn路径
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9a99ed95-a219-438e-8854-05ff4f5e96cc/Untitled.png)
+        
+    - 修改logseq的config.edn，我的配置文件已存放到github-gist: [logseq-config.edn](https://gist.github.com/fishyer/ec7520ae794c5456470a0c62dc30f2c0) ，直接复制粘贴即可
+    
+    ```dart
+    :publishing/all-pages-public? true
+    :default-home {:page "README" :sidebar ["contents"]}
+    ```
+    
+    - 如上，可以配置网站的起始页面为README.md
+- 1-3-配置logseq的git自动提交
+    - 本来Obsidian库也有git插件自动提交，但是好像没法指定特定文件夹，只能全库提交，这里只提交公开的logseq库
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e10e907b-753d-4ed3-914d-a68a088cfb24/Untitled.png)
+    
+- 1-4-配置git hooks，commit时自动push到github仓库
+    - 主要是因为logseq的git，只能自动commit，不能自动push，故需添加git hooks
+    - 路径如下
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cebf89a4-5dbd-4736-827b-fb7537c7b6fd/Untitled.png)
+        
+    - shell脚本文件如下
+        
+        ```bash
+        #!/bin/sh
+        
+        git push origin main
+        ```
+        
+
+# 2-配置github actions自动生成html
+
+- 在logseq库下新建.github文件夹添加main.yml
+- 路径如下
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddd8549c-18af-4ff7-948d-0a78e0fd9dcf/Untitled.png)
+    
+- 配置文件如下：
+    
+    ```yaml
+    # This is a basic workflow to help you get started with Actions
+    
+    name: CI
+    
+    # Controls when the workflow will run
+    on:
+      push:
+        branches: [main]
+    
+      # Allows you to run this workflow manually from the Actions tab
+      workflow_dispatch:
+    
+    # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+    jobs:
+      # This workflow contains a single job called "build"
+      build:
+        # The type of runner that the job will run on
+        runs-on: ubuntu-latest
+    
+        # Steps represent a sequence of tasks that will be executed as part of the job
+        steps:
+          # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+          - uses: actions/checkout@v2
+          # - name: change config.edn and custom.css
+          #   run: cp logseq/config-public.edn logseq/config.edn && cp logseq/custom-public.css logseq/custom.css
+          - name: Logseq Publish 🚩
+            uses: pengx17/logseq-publish@main
+          # - name: Inject Script
+            # run: sed -i "s@</body>@$( cat logseq/inject.html | tr '\n' ' ' | sed 's@&@\\&@g' )</body>@"  www/index.html
+          - name: add a nojekyll file
+            run: touch $GITHUB_WORKSPACE/www/.nojekyll
+          - name: Deploy 🚀
+            uses: JamesIves/github-pages-deploy-action@v4
+            with:
+              repository-name: fishyer/MyLogseq-Publish
+              branch: master # The branch the action should deploy to.
+              folder: www # The folder the action should deploy.
+              clean: true
+              single-commit: true
+              token: ${{ secrets.ACCESS_TOKEN }}
+    ```
+    
+- 还可以添加评论模块，具体可以查看：[配置Logseq自动发布相关流程](https://logseq.fishyer.com/#/page/%E9%85%8D%E7%BD%AELogseq%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%E7%9B%B8%E5%85%B3%E6%B5%81%E7%A8%8B)，不过我现在已经关闭了，感觉会增加编译耗时，而且也没啥用，没人评论
+- 上面的`repository-name: fishyer/MyLogseq-Publish`和`token: ${{ secrets.ACCESS_TOKEN }}`其实是可选的
+    - 如果自己生成的html存放到本仓库的指定分支，而不是存放到其它仓库，可以不配置。
+    - 配置的顺序貌似不可修改，容易导致action执行出错。
+- 推荐保存到其它仓库，因为强迫症无法忍受每次打开github仓库时都提示两个分支有差异，提示合并。命名规范推荐为(加一个publish的后缀而已)：
+    - 我的md仓库为：https://github.com/fishyer/MyLogseq我
+    - 对应 的html仓库为：https://github.com/fishyer/MyLogseq-publish
+- secrets.ACCESS_TOKEN的生成，点击https://github.com/settings/tokens，创建新token，然后勾选所有的权限
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/866eed02-ddc4-4bcc-9120-c0025b5ef8d2/Untitled.png)
+    
+- secrets.ACCESS_TOKEN的配置
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/93458a25-6c53-4e57-a98a-681c815b444c/Untitled.png)
+    
+- 可以查看gitub action的自动编译的历史，可以看到，一般每次编译耗时不足3m
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a7a3662b-af43-4574-9bb6-bc02c9c620a8/Untitled.png)
+    
+    [github action的数量限制](https://www.notion.so/github-action-b1f385a9c63a4c9bbe32e37c3f207b25)
+    
+- 生成的html文件效果，其实并没有将每个md都生成一个html，而是都聚合在index.html里面。好处是在[https://logseq.fishyer.com](https://logseq.fishyer.com/#/page/README) 这里查看时，可以快捷键Ctrl+K进行全文搜索，可以折叠展开，支持双链和关系图谱。感觉比hugo这种博客引擎更方便。
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3da516e9-5c24-4046-afe2-fe04a7388fc2/Untitled.png)
+    
+
+# 3-vercel自动发布为网站
+
+- 其实可以直接借助github pages来发布，无须vercel，但是github page实在是访问太慢了，不如vercel自带cdn，国内也有节点，访问速度大大加快
+- 访问[https://vercel.com/](https://vercel.com/)，使用github授权登录
+- 新建vercel项目，导入github仓库
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4f07443f-9eb3-4b42-be38-fa5a1896b2c5/Untitled.png)
+    
+- 啥都不用配置，直接deploy即可
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c16c2b7a-1f9c-464c-ab7d-0183fe9ab214/Untitled.png)
+    
+- 可以查看自动发布的历史，可以看到，一般每次发布耗时不足10s
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e02fedb-2bec-4b23-8c3f-0d77c7aabccd/Untitled.png)
+    
+
+# 4-通过CloudFlare绑定自定义域名[可选]
+
+- 不是每个人都有自己的域名的，其实直接用vercel自动生成的.vercel.app域名也挺好的，唯一的缺点就是在微信里面打开时会提示风险
+- 4-1-先在GoDaddy购买一个域名：[GoDaddy | 购买域名](https://www.godaddy.com/zh-sg/offers/godaddy?isc=gotnsgl01&countryview=1&currencyType=SGD&cdtl=c_836275849.g_46463500767.k_kwd-296914754384.a_502457539370.d_c.ctv_g&bnb=b&gclid=CjwKCAjwp7eUBhBeEiwAZbHwkSl7k4E2LSJhmR5ANDZGyk6fL8WUZHtubjtoxq_ZL0Cwswvti8xA1xoCGNsQAvD_BwE)，费用看你的名称而定，我的域名：[fishyer.com](https://fishyer.com) 费用为平均81人民币/年。
+    - 建议优先选择.com .cn .net之类的域名，不然小心在微信里面打不开,比如.me .top .app等小众域名
+    - 推荐选择国外域名的原因，是因为可以免备案，直接在国内的阿里云买域名也可以，就是必须备案了，感觉备案挺麻烦的，要上传很多资料，还只能线下办理，懒得去折腾
+- 4-2-在GoDaddy的管理后台，设置DNS域名服务器为CloudFlare
+    - 配置路径为：
+        - 示例：[https://dcc.godaddy.com/control/fishyer.com/dns?plid=1](https://dcc.godaddy.com/control/fishyer.com/dns?plid=1)
+            
+            ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c79fe504-03e9-4d6f-8519-727a7f83b249/Untitled.png)
+            
+            ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6d6b932d-6433-4e5f-8a25-b29a43bb113f/Untitled.png)
+            
+    - CloudFlare服务器
+        
+        ```bash
+        ned.ns.cloudflare.com
+        gabriella.ns.cloudflare.com
+        ```
+        
+- 4-3- 在自己的[CloudFlare管理后台](https://dash.cloudflare.com/)，添加一个DNS解析记录，解析到Vercel-DNS
+    - 类型为CNAME，名称为logseq（实际上就是logseq.fishyer.com，可自定义，不过建议命名为这个，方便区分和记忆，因为还可能会有notion.fishyer.com mweb.fishyer.com hugo.fishyer.com等等），内容为`cname.vercel-dns.com` ，代理状态选仅限DNS（不需要CloudFlare的cdn，因为Vercel自带cdn，比CloudFlare的cdn好像还快一点）
+        
+        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9696f157-6aff-48c8-83ea-918a89273b71/Untitled.png)
+        
+- 4-4-在Vercel的项目配置里面，输入自定义的域名，比如：logseq.fishyer.com ，然后Add
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f31e1a51-e59c-41f0-8128-64cfc81855e0/Untitled.png)
+
+# 极简部署的模板
+
+- 1-直接下载我的https://github.com/fishyer/MyLogseq-Template，解压
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a46b5c2-8a87-4f81-a655-850b80408603/Untitled.png)
+    
+- 2-拖动到自己的ob库下面，在logseq文件夹的路径下，配置好git仓库-origin和分支名称-main
+    - 将第3行的仓库路径`git@github.com:fishyer/MyLogseq-Template.git`修改为自己的仓库路径，然后依次执行即可
+    
+    ```bash
+    git init
+    cp assets/post-commit .git/hooks/post-commit
+    git remote add origin git@github.com:fishyer/MyLogseq-Template.git
+    git checkout -b main
+    git add .
+    git commit -m "init"
+    git push -f origin main
+    ```
+    
+- 3-等待github action执行完毕后，导入到vercel中，等待Vercel发布完成，就大功告成了 🎉
+    - 效果可见：[https://my-logseq-template.vercel.app](https://my-logseq-template.vercel.app/#/page/README)
+    - 需要注意的点就是需要修改一下vercel中对于的git分支为gh-pages
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/72c1b53a-84b6-4257-8b94-5d8c90c55069/Untitled.png)
+    
+- 极简版本的注意事项：
+    - 1-注意仓库的名称和分支的名称要和git hooks里面的post-commit脚本对应，不然会导致自动push失效
+        - 为了让自动commit和自动push生效，logseq软件需要开着，并打开了这个仓库
+    - 2-本模板已经添加好了github-actions脚本，但为简单起见，是发布到原始仓库的gh-pages分支下面，不同于正文中是发布到另一个MyLogseq-Publish仓库下面
+    - 3-需要修改vercel中对于的git分支为gh-pages
+    
+
+如果你在部署过程中，遇到什么问题，欢迎和我交流讨论，微信：fishyer2850，或者加入我们的群聊来讨论：[https://blog.fishyer.com/about](https://blog.fishyer.com/about)
+
+[https://embed.notionlytics.com/wt/ZXlKd1lXZGxTV1FpT2lKaFlqVmhaRE5rT1RrME16STBZMlZoT1dZMVl6a3dPV0UzTURZMU0yVXdOU0lzSW5kdmNtdHpjR0ZqWlZSeVlXTnJaWEpKWkNJNklsUnhiSE5vUkRoNVRYSktTSGN4WkhGT2VXTTFJbjA9](https://embed.notionlytics.com/wt/ZXlKd1lXZGxTV1FpT2lKaFlqVmhaRE5rT1RrME16STBZMlZoT1dZMVl6a3dPV0UzTURZMU0yVXdOU0lzSW5kdmNtdHpjR0ZqWlZSeVlXTnJaWEpKWkNJNklsUnhiSE5vUkRoNVRYSktTSGN4WkhGT2VXTTFJbjA9)
