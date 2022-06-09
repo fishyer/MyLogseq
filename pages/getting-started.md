@@ -6,8 +6,8 @@ alias:: 为什么建立这个笔记交流微信群 微信交流群
 - ## 建群目的
 	- 之前加入了很多笔记工具群，在聊天中经常会讨论到别的竞品软件，感觉这样不是很好，所以专门建了这个群，在这里可以自由讨论各种笔记工具和信息管理方法论
 	- 讨论内容
-		- 各种[[PKM]]和[[GTD]]工具
-			- 包括但不限于[[Logseq]]、[[Cubox]]、[[Obsidian]]、[[Notion]]、[[WorkFlowy]]、[[滴答清单]]、[[Omnifocus]]、[[飞书]]、[[微信]]
+		- 各种[[PKM]]和[[MyHulu/archive/MyLogseq/pages/GTD]]工具
+			- 包括但不限于[[MyHulu/archive/MyLogseq/pages/Logseq]]、[[Cubox]]、[[Obsidian]]、[[MyHulu/archive/MyLogseq/pages/Notion]]、[[WorkFlowy]]、[[滴答清单]]、[[Omnifocus]]、[[飞书]]、[[微信]]
 		- 各种信息管理方法论
 			- 包括但不限于[[PARA]]、[[DIKW]]、[[DailyNote]]、[[PDCA]]、[[OKR]]、[[PMP]]
 		- 我也会不定期分享自己搭建[[数字花园]]的一些心得到群里。

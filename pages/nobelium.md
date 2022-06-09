@@ -1,4 +1,4 @@
-- [[Notion]]
+- [[MyHulu/archive/MyLogseq/pages/Notion]]
 - 使用nobelium访问notion数据库来搭建博客
 - 背景
 	- 1-notion分享的网址加载比较慢，尤其是一些图片，可能是因为里面有太多的js脚本了吧，其实在分享的博客里面，基本就是一个静态页面，不需要太多的交互的

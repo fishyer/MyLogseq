@@ -1,11 +1,11 @@
 - Relate
-	- #Syncthing #版本管理 #团队协作 #软件工程 [[Github]] [[GitBook]]
+	- #Syncthing #版本管理 #团队协作 #软件工程 [[MyHulu/archive/MyLogseq/pages/github]] [[GitBook]]
 - 01-成品文章
   collapsed:: true
 	- 暂无
 - 02-半成品卡片
 	- 网站
-		- [[github]]
+		- [[MyHulu/archive/MyLogseq/pages/github]]
 		- [[Gitlab]]
 		- [[码云]]
 	- 工具
