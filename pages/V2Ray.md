@@ -1,0 +1,59 @@
+- 说明
+	- 基于本人VPS搭建的V2ray服务，提供给各位同学，方便大家学习编程中的各种工具的下载
+	- 流量有限，请勿外传，请勿用于油管等视频服务，如果流量超标，我会考虑停掉此服务
+- V2Ray服务端配置信息
+	- V2Ray 配置信息
+		- vmess链接
+			- vmess://ewoidiI6ICIyIiwKInBzIjogIjIzM3YyLmNvbV8xMDQuMTI4Ljg4LjExMCIsCiJhZGQiOiAiMTA0LjEyOC44OC4xMTAiLAoicG9ydCI6ICIzMzI0MSIsCiJpZCI6ICJjZjI0NjU3Ny1lYzljLTQ0MGUtYWIwZi00NDgzYjNlYzFjOWMiLAoiYWlkIjogIjAiLAoibmV0IjogInRjcCIsCiJ0eXBlIjogIm5vbmUiLAoiaG9zdCI6ICIiLAoicGF0aCI6ICIiLAoidGxzIjogIiIKfQo=
+		- 地址 (Address) = 104.128.88.110
+		- 端口 (Port) = 33241
+		- 用户ID (User ID / UUID) = cf246577-ec9c-440e-ab0f-4483b3ec1c9c
+		- 额外ID (Alter Id) = 0
+		- 传输协议 (Network) = tcp
+		- 伪装类型 (header type) = none
+		- V2Ray 客户端使用教程: https://github.com/bwgvps/v2ray-tutorial
+		- 提示: 输入  v2ray url  可生成 vmess URL 链接 / 输入  v2ray qr  可生成二维码链接
+		- 免被墙..推荐使用JMS: https://jms6.net
+	- Shadowsocks 配置信息
+		- 服务器地址 = 104.128.88.110
+		- 服务器端口 = 40946
+		- 密码 = 233blog.com
+		- 加密协议 = aes-256-gcm
+		- SS 链接 = ss://YWVzLTI1Ni1nY206MjMzYmxvZy5jb21AMTA0LjEyOC44OC4xMTA6NDA5NDY=#233v2.com_ss_104.128.88.110
+		- 备注:  Shadowsocks Win 4.0.6  客户端可能无法识别该 SS 链接
+		- 提示: 输入  v2ray ssqr  可生成 Shadowsocks 二维码链接
+	- 免被墙..欢迎查看[Fishyer的工具数据库](https://www.notion.so/fishyer/Fishyer-708f0570fbec4dcc896cadabcd2d0c9a )
+- 配置V2Ray客户端
+	- 完成V2Ray服务端搭建后，我们就需要在本地客户端配置V2Ray了
+	- 支持iOS、Android手机、Mac、Windows等，其实就是在客户端上填入上一步的连接信息即可。
+	- 详细教程整理如下：[bwgvps/v2ray-tutorial](https://github.com/bwgvps/v2ray-tutorial)
+		- 1、iOS苹果手机客户端
+			- iOS苹果手机客户端Shadowrocket下载方法与使用教程
+		- 2、Android安卓手机客户端
+			- 安卓手机客户端v2rayNG下载方法与使用教程
+		- 3、Mac客户端
+			- Mac客户端V2RayX下载方法与使用教程
+		- 4、Windows客户端
+			- Windows客户端v2rayN下载方法与使用教程
+- 自建V2Ray服务【如果你有自己的VPS的话，可以考虑】
+	- 一键部署脚本
+		- bash <(curl -s -L https://git.io/bwg_v2ray)
+	- 部署文档
+		- [搬瓦工VPS搭建V2Ray代理科学上网翻墙教程（2022年更新） | 搬瓦工](https://bwgvps.github.io/build-v2ray-on-bandwagonhost-vps/)
+	- 常见的管理命令如下：
+		- v2ray info 查看 V2Ray 配置信息
+		- v2ray config 修改 V2Ray 配置
+		- v2ray link 生成 V2Ray 配置文件链接
+		- v2ray infolink 生成 V2Ray 配置信息链接
+		- v2ray qr 生成 V2Ray 配置二维码链接
+		- v2ray ss 修改 Shadowsocks 配置
+		- v2ray ssinfo 查看 Shadowsocks 配置信息
+		- v2ray ssqr 生成 Shadowsocks 配置二维码链接
+		- v2ray status 查看 V2Ray 运行状态
+		- v2ray start 启动 V2Ray
+		- v2ray stop 停止 V2Ray
+		- v2ray restart 重启 V2Ray
+		- v2ray log 查看 V2Ray 运行日志
+		- v2ray update 更新 V2Ray
+		- v2ray update.sh 更新 V2Ray 管理脚本
+		- v2ray uninstall 卸载 V2Ra
