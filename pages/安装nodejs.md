@@ -1,0 +1,8 @@
+- 很方便前后端一起写
+- 安装Node 版本管理器（通常称为 nvm）
+	- [Tags · coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows/tags)
+	- nvm ls 此时没有可用的版本
+	- nvm list available
+	- nvm install 18.3.0
+	- nvm use 18.3.0
+	- npm --version

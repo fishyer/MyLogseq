@@ -1,0 +1,15 @@
+- 什么是Vercel
+	- 支持部署静态网页和动态接口
+	- 自带域名 https
+	- 自带丰富的模板
+	- 官方支持Node.js、Go、Python、Ruby。
+- 安装vercel命令行工具
+	- npm i -g vercel
+- Vercel常用命令
+	- vercel init
+		- 可以提供很多种模板，不复杂的话，也可以自己写
+	- vercel dev --debug  # 本地开发测试
+	- vercel          # 部署到云服务‘
+	- vercel -prod    # 部署到云服务生产环境
+- 添加index.html，部署在云端
+	- https://vercel-demo-zeta-kohl.vercel.app/
