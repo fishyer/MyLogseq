@@ -25,6 +25,15 @@
  {:block/name "2022-06-09",
   :block/created-at 1654756398238,
   :block/updated-at 1654756398238}
+ {:block/name "2022-06-10",
+  :block/created-at 1654791141269,
+  :block/updated-at 1654791141269}
+ {:block/name "2022-06-11",
+  :block/created-at 1654935037440,
+  :block/updated-at 1654935037440}
+ {:block/name "233v2.com_ss_104.128.88.110",
+  :block/created-at 1654937254963,
+  :block/updated-at 1654937254963}
  {:block/name "625f12b7-b1f5-4c30-8ab3-54ef51f7ed01",
   :block/created-at 1652017672465,
   :block/updated-at 1652017672465}
@@ -133,6 +142,10 @@
  {:block/name "in-progress",
   :block/created-at 1652017781687,
   :block/updated-at 1652017781687}
+ {:block/name
+  "ios苹果手机客户端shadowrocket下载方法与使用教程 · bwgvpsv2ray-tutorial wiki",
+  :block/created-at 1654937731416,
+  :block/updated-at 1654937731416}
  {:block/name "jsdelivr",
   :block/created-at 1652035878448,
   :block/updated-at 1652035878448}
@@ -160,6 +173,9 @@
  {:block/name "mac",
   :block/created-at 1652159512496,
   :block/updated-at 1652163309983}
+ {:block/name "mac客户端v2rayx下载方法与使用教程 · bwgvpsv2ray-tutorial wiki",
+  :block/created-at 1654937731454,
+  :block/updated-at 1654937731454}
  {:block/name "mac应用的折腾之路",
   :block/created-at 1652018118366,
   :block/updated-at 1652018118366}
@@ -169,6 +185,100 @@
  {:block/name "mweb",
   :block/created-at 1652035878440,
   :block/updated-at 1652035878440}
+ {:block/name "myhulu",
+  :block/created-at 1654791142839,
+  :block/updated-at 1654791142839}
+ {:block/name "myhulu/archive",
+  :block/created-at 1654791142840,
+  :block/updated-at 1654791142840}
+ {:block/name "myhulu/archive/mylogseq",
+  :block/created-at 1654791142840,
+  :block/updated-at 1654791142840}
+ {:block/name "myhulu/archive/mylogseq/pages",
+  :block/created-at 1654791142841,
+  :block/updated-at 1654791142841}
+ {:block/name "myhulu/archive/mylogseq/pages/github",
+  :block/created-at 1654791143306,
+  :block/updated-at 1654791143306}
+ {:block/name "myhulu/archive/mylogseq/pages/google搜索技巧",
+  :block/created-at 1654791144892,
+  :block/updated-at 1654791144892}
+ {:block/name "myhulu/archive/mylogseq/pages/gtd",
+  :block/created-at 1654791142952,
+  :block/updated-at 1654791142952}
+ {:block/name "myhulu/archive/mylogseq/pages/logseq",
+  :block/created-at 1654791142839,
+  :block/updated-at 1654791142839}
+ {:block/name "myhulu/archive/mylogseq/pages/notion",
+  :block/created-at 1654791142958,
+  :block/updated-at 1654791142958}
+ {:block/name "myhulu/archive/mylogseq/pages/todo",
+  :block/created-at 1654791142829,
+  :block/updated-at 1654791142829}
+ {:block/name "myhulu/archive/mylogseq/pages/任务管理",
+  :block/created-at 1654791144888,
+  :block/updated-at 1654791144888}
+ {:block/name "myobsidiannote",
+  :block/created-at 1654935037525,
+  :block/updated-at 1654935037525}
+ {:block/name "myobsidiannote/history",
+  :block/created-at 1654935037525,
+  :block/updated-at 1654935037525}
+ {:block/name "myobsidiannote/history/01-inbox",
+  :block/created-at 1654935037526,
+  :block/updated-at 1654935037526}
+ {:block/name
+  "myobsidiannote/history/01-inbox/git init 和 git init –bare 的区别",
+  :block/created-at 1654935038128,
+  :block/updated-at 1654935038128}
+ {:block/name "myobsidiannote/history/01-inbox/github收藏",
+  :block/created-at 1654935038134,
+  :block/updated-at 1654935038134}
+ {:block/name "myobsidiannote/history/01-inbox/git备忘",
+  :block/created-at 1654935038131,
+  :block/updated-at 1654935038131}
+ {:block/name "myobsidiannote/history/01-inbox/logseq",
+  :block/created-at 1654935039926,
+  :block/updated-at 1654935039926}
+ {:block/name "myobsidiannote/history/01-inbox/markdown",
+  :block/created-at 1654935038749,
+  :block/updated-at 1654935038749}
+ {:block/name "myobsidiannote/history/01-inbox/obsidian",
+  :block/created-at 1654935037522,
+  :block/updated-at 1654935037522}
+ {:block/name "myobsidiannote/history/01-inbox/okr",
+  :block/created-at 1654935037856,
+  :block/updated-at 1654935037856}
+ {:block/name "myobsidiannote/history/01-inbox/omnifocus",
+  :block/created-at 1654935037847,
+  :block/updated-at 1654935037847}
+ {:block/name "myobsidiannote/history/01-inbox/pkm",
+  :block/created-at 1654935037841,
+  :block/updated-at 1654935037841}
+ {:block/name "myobsidiannote/history/01-inbox/python",
+  :block/created-at 1654935037524,
+  :block/updated-at 1654935037524}
+ {:block/name "myobsidiannote/history/01-inbox/syncthing",
+  :block/created-at 1654935038726,
+  :block/updated-at 1654935038726}
+ {:block/name "myobsidiannote/history/01-inbox/utools",
+  :block/created-at 1654935039942,
+  :block/updated-at 1654935039942}
+ {:block/name "myobsidiannote/history/01-inbox/vscode",
+  :block/created-at 1654935038121,
+  :block/updated-at 1654935038121}
+ {:block/name "myobsidiannote/history/01-inbox/workflowy",
+  :block/created-at 1654935037848,
+  :block/updated-at 1654935037848}
+ {:block/name "myobsidiannote/history/04-outline",
+  :block/created-at 1654935039947,
+  :block/updated-at 1654935039947}
+ {:block/name "myobsidiannote/history/04-outline/chrome",
+  :block/created-at 1654935039946,
+  :block/updated-at 1654935039946}
+ {:block/name "myobsidiannote/history/04-outline/vscode",
+  :block/created-at 1654935039930,
+  :block/updated-at 1654935039930}
  {:block/name "nobelium",
   :block/created-at 1652344113274,
   :block/updated-at 1652348880415}
@@ -241,18 +351,27 @@
  {:block/name "utools",
   :block/created-at 1652044818740,
   :block/updated-at 1652044818740}
+ {:block/name "v2ray",
+  :block/created-at 1654937251293,
+  :block/updated-at 1654945379297}
+ {:block/name "v2ray-shell",
+  :block/created-at 1654937814989,
+  :block/updated-at 1654937814989}
  {:block/name "vscode",
   :block/created-at 1652035878507,
   :block/updated-at 1652035878507}
  {:block/name "w1-环境部署",
   :block/created-at 1654361282066,
-  :block/updated-at 1654361403767}
+  :block/updated-at 1654954653505}
  {:block/name "wait",
   :block/created-at 1652017781687,
   :block/updated-at 1652017781687}
  {:block/name "waiting",
   :block/created-at 1652017781686,
   :block/updated-at 1652017781686}
+ {:block/name "windows客户端v2rayn下载方法与使用教程 · bwgvpsv2ray-tutorial wiki",
+  :block/created-at 1654937731511,
+  :block/updated-at 1654937731511}
  {:block/name "workflowy",
   :block/created-at 1652030054323,
   :block/updated-at 1652030054323}
@@ -379,12 +498,33 @@
  {:block/name "学习目标",
   :block/created-at 1652344113117,
   :block/updated-at 1652344113117}
+ {:block/name "学习群",
+  :block/created-at 1654948695108,
+  :block/updated-at 1654948695224}
  {:block/name "学习计划",
   :block/created-at 1653637341367,
   :block/updated-at 1653646394184}
  {:block/name "安卓应用的折腾之路",
   :block/created-at 1652018118366,
   :block/updated-at 1652018118366}
+ {:block/name "安卓手机客户端v2rayng下载方法与使用教程 · bwgvpsv2ray-tutorial wiki",
+  :block/created-at 1654937731482,
+  :block/updated-at 1654937731482}
+ {:block/name "安装anaconda，写一个jupyter用例",
+  :block/created-at 1654948917991,
+  :block/updated-at 1654948918233}
+ {:block/name "安装git，注册github",
+  :block/created-at 1654949047069,
+  :block/updated-at 1654949831138}
+ {:block/name "安装nodejs",
+  :block/created-at 1654949032796,
+  :block/updated-at 1654954566198}
+ {:block/name "安装vercel，注册vercel",
+  :block/created-at 1654949035548,
+  :block/updated-at 1654949035683}
+ {:block/name "安装vscode",
+  :block/created-at 1654948922174,
+  :block/updated-at 1654948922325}
  {:block/name "工具",
   :block/created-at 1652159980728,
   :block/updated-at 1652159980728}
@@ -394,9 +534,6 @@
  {:block/name "建议直接将所有可公开的md存放到一个库里面",
   :block/created-at 1654680181792,
   :block/updated-at 1654680181792}
- {:block/name "开智书单108本",
-  :block/created-at 1652048450808,
-  :block/updated-at 1652048450808}
  {:block/name "录屏工具",
   :block/created-at 1652094778991,
   :block/updated-at 1652094778991}
@@ -424,6 +561,9 @@
  {:block/name "推荐",
   :block/created-at 1652035878480,
   :block/updated-at 1652035878480}
+ {:block/name "搬瓦工vps搭建v2ray代理科学上网翻墙教程（2022年更新）  搬瓦工",
+  :block/created-at 1654937789835,
+  :block/updated-at 1654937789835}
  {:block/name "收集清单",
   :block/created-at 1653191064748,
   :block/updated-at 1653191064748}
@@ -448,6 +588,9 @@
  {:block/name "时间管理",
   :block/created-at 1652094778587,
   :block/updated-at 1652094778587}
+ {:block/name "本课程的说明",
+  :block/created-at 1654948686079,
+  :block/updated-at 1654948686272}
  {:block/name "机器人",
   :block/created-at 1652017672469,
   :block/updated-at 1652017672469}
@@ -481,6 +624,9 @@
  {:block/name "版本管理",
   :block/created-at 1652041122728,
   :block/updated-at 1652041122728}
+ {:block/name "电子书管理工作流",
+  :block/created-at 1654935037172,
+  :block/updated-at 1654935037172}
  {:block/name "白话法律42讲",
   :block/created-at 1653221767160,
   :block/updated-at 1653221767160}
@@ -522,7 +668,7 @@
   :block/updated-at 1652094779460}
  {:block/name "编程入门-学习群",
   :block/created-at 1654361282371,
-  :block/updated-at 1654361466240}
+  :block/updated-at 1654946869954}
  {:block/name "编程入门-学习群-百度网盘",
   :block/created-at 1654361399260,
   :block/updated-at 1654361399358}
@@ -553,6 +699,9 @@
  {:block/name "自动化整理",
   :block/created-at 1652035878478,
   :block/updated-at 1652035878478}
+ {:block/name "自建v2ray服务",
+  :block/created-at 1654938196347,
+  :block/updated-at 1654938196519}
  {:block/name "葫芦笔记",
   :block/created-at 1652044818735,
   :block/updated-at 1652044818735}
