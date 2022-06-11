@@ -1,11 +1,17 @@
 - 很方便前后端一起写
-- 安装Node 版本管理器（通常称为 nvm）
-	- [Tags · coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows/tags)
-	- nvm ls 此时没有可用的版本
-	- nvm list available
-	- nvm install 18.3.0
-	- nvm use 18.3.0
-	- npm --version
+- 官网
+	- [下载 | Node.js 中文网](http://nodejs.cn/download/)
 - windows通过nvm安装nodejs
 	- [在本机 Windows 上设置 NodeJS | Microsoft Docs](https://docs.microsoft.com/zh-cn/windows/dev-environment/javascript/nodejs-on-windows)
+	- 安装Node 版本管理器（通常称为 nvm）
+		- [Tags · coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows/tags)
+		- nvm ls 此时没有可用的版本
+		- nvm list available
+		- nvm install 18.3.0
+		- nvm use 18.3.0
+		- npm --version
+		- node -v: 查看当前node版本
+		- npm -v：查看当前npm版本
+- npm官网：[npm](https://www.npmjs.com/)
+-
 -
