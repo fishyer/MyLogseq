@@ -6,3 +6,6 @@
 	- nvm install 18.3.0
 	- nvm use 18.3.0
 	- npm --version
+- windows通过nvm安装nodejs
+	- [在本机 Windows 上设置 NodeJS | Microsoft Docs](https://docs.microsoft.com/zh-cn/windows/dev-environment/javascript/nodejs-on-windows)
+-
