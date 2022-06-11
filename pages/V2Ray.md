@@ -27,6 +27,8 @@
 	- 完成V2Ray服务端搭建后，我们就需要在本地客户端配置V2Ray了
 	- 支持iOS、Android手机、Mac、Windows等，其实就是在客户端上填入上一步的连接信息即可。
 	- 详细教程整理来自：[bwgvps/v2ray-tutorial](https://github.com/bwgvps/v2ray-tutorial)
+		- 文档中涉及的软件，均已上传到百度网盘群：308917277
+			- 群文件-VSCode等多个文件-v2ray压缩包，解压以后选择各自平台对应的软件即可
 		- 1、iOS苹果手机客户端
 			- [[iOS苹果手机客户端Shadowrocket下载方法与使用教程 · bwgvpsv2ray-tutorial Wiki]]
 		- 2、Android安卓手机客户端
