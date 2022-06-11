@@ -11,7 +11,7 @@
 	- 工具
 		- [[TortoiseGit]]
 		- [[sourcetree]]
-		- [[vscode]]
+		- [[MyObsidianNote/History/01-Inbox/vscode]]
 		- [[网盘]]
 	- git强制拉取并覆盖本地代码
 		- ```
@@ -57,14 +57,14 @@
 		- 3. [GitHub Actions 入门教程 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
 - 03-碎片笔记
   collapsed:: true
-	- [[git备忘]]
-	- [[git init 和 git init –bare 的区别]]
-	- [[git备忘]]
+	- [[MyObsidianNote/History/01-Inbox/git备忘]]
+	- [[MyObsidianNote/History/01-Inbox/git init 和 git init –bare 的区别]]
+	- [[MyObsidianNote/History/01-Inbox/git备忘]]
 	- [[git更新忽略文件]]
 	- github
 	- github镜像镜像网站
 		- ![[Screenshot_2021-12-02-03-48-15-85.jpg]]
-	- [[Github收藏]]
+	- [[MyObsidianNote/History/01-Inbox/Github收藏]]
 	- Gitlab
 - 04-收集资料
 	- 书籍

@@ -6,10 +6,10 @@ alias:: 为什么建立这个笔记交流微信群 微信交流群
 - ## 建群目的
 	- 之前加入了很多笔记工具群，在聊天中经常会讨论到别的竞品软件，感觉这样不是很好，所以专门建了这个群，在这里可以自由讨论各种笔记工具和信息管理方法论
 	- 讨论内容
-		- 各种[[PKM]]和[[MyHulu/archive/MyLogseq/pages/GTD]]工具
-			- 包括但不限于[[MyHulu/archive/MyLogseq/pages/Logseq]]、[[Cubox]]、[[Obsidian]]、[[MyHulu/archive/MyLogseq/pages/Notion]]、[[WorkFlowy]]、[[滴答清单]]、[[Omnifocus]]、[[飞书]]、[[微信]]
+		- 各种[[MyObsidianNote/History/01-Inbox/PKM]]和[[MyHulu/archive/MyLogseq/pages/GTD]]工具
+			- 包括但不限于[[MyHulu/archive/MyLogseq/pages/Logseq]]、[[Cubox]]、[[MyObsidianNote/History/01-Inbox/Obsidian]]、[[MyHulu/archive/MyLogseq/pages/Notion]]、[[MyObsidianNote/History/01-Inbox/WorkFlowy]]、[[滴答清单]]、[[MyObsidianNote/History/01-Inbox/Omnifocus]]、[[飞书]]、[[微信]]
 		- 各种信息管理方法论
-			- 包括但不限于[[PARA]]、[[DIKW]]、[[DailyNote]]、[[PDCA]]、[[OKR]]、[[PMP]]
+			- 包括但不限于[[PARA]]、[[DIKW]]、[[DailyNote]]、[[PDCA]]、[[MyObsidianNote/History/01-Inbox/OKR]]、[[PMP]]
 		- 我也会不定期分享自己搭建[[数字花园]]的一些心得到群里。
 	- 大家以后遇到笔记管理相关的问题，无论是笔记理念方面，还是笔记工具方面，都可以到这个群里和我交流，也许你踩到的坑，我以前就遇到过了。
 	- 计划以后这个群作为自己写作素材的孕育池，有啥想写的，在这里和群友讨论一下，不闭门造车，不重复造轮子

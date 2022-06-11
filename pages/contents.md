@@ -31,8 +31,8 @@ alias:: 目录
 		- [[读书笔记-如何成为学习高手]]
 		- [[MyHulu/archive/MyLogseq/pages/Logseq]]
 		- [[Git]]
-		- [[Obsidian]]
-		- [[Python]]
+		- [[MyObsidianNote/History/01-Inbox/Obsidian]]
+		- [[MyObsidianNote/History/01-Inbox/Python]]
 		- [[电子书管理工作流]]
 		-
 - AboutMe
