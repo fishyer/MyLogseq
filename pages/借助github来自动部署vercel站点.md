@@ -10,8 +10,9 @@
 				- git remote remove origin
 			- 添加origin远程仓库-ssh
 				- git remote add origin git@github.com:fishyer/demo02.git
-	- 2-打开Git命令页面，执行git命令脚本：修改设置，解除ssl验证
+	- 2-打开Git命令页面，执行git命令脚本：修改网络设置，解除ssl验证，设置网络代理
 		- git config --global http.sslVerify "false"
+		- git config --global http.proxy 127.0.0.1:10809
 - 导入github项目到vercel里面
 - 以后只要代码被提交到github了，就会自动触发vercel的部署，将版本管理和自动部署结合
 - 参考资料
