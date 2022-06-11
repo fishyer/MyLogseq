@@ -8,11 +8,12 @@
 	- 自带丰富的模板
 	- 官方支持Node.js、Go、Python、Ruby。
 - 安装vercel命令行工具
+	- [Download Vercel CLI – Vercel](https://vercel.com/cli)
 	- npm i -g vercel
 	- yarn global add vercel
+	- [[Vercel常用命令]]
 - npm和yarn的区别
 	- 都是包管理工具，不过一般用yarn，因为下载速度更快
-- [[Vercel常用命令]]
 -
 -
 -
