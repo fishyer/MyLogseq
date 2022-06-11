@@ -1,14 +1,15 @@
+- [[Vercel常用命令]]
 - 添加index.html，部署在云端
-	- vercel dev --debug
-	- https://vercel-demo-zeta-kohl.vercel.app/
-- 添加server.js，部署到云端
-	- node server.js
-	- Ctrl+C退出
-- 获取当前时间并返回给接口
-	- 安装库
-		- npm i moment --save
-		- npm i http --save
-	- 导入库
-		- var moment = require('moment');
-	- 使用库
-		- var current_time = moment(Date.now()).format('YYYY-MM-DD HH:mm:ss')
+	- 本机部署
+		- vercel dev --debug
+	- 云端部署
+		- vercel
+	- 云端生产环境部署
+		- vercel -prodvercel
+		- https://vercel-demo-zeta-kohl.vercel.app/
+- 借助github来自动部署，将版本管理和自动部署结合
+	-
+- [[添加server.js，部署到云端]]
+-
+-
+-
