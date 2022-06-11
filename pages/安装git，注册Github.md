@@ -1,15 +1,26 @@
 - git-最流行的版本管理工具
 	- 官网：[Git - Downloads](https://git-scm.com/downloads)
+- 安装git
+	- https://git-scm.com/download
 	- git --version
 - github-最流行的版本托管仓库，代码界的百度网盘
 	- 官网：[GitHub](https://github.com/)
-- 安装git
-	- https://git-scm.com/download
 - 配置环境变量
-	- C:\Program Files\Git\bin
+	- `C:\Program Files\Git\bin`
 - 注册github
 	- https://github.com/
 - 生成本机的SSH密钥
 	- ssh-keygen -t ed25519 -C "fishyer@foxmail.com"
 - 在github添加你的公钥
 	- https://github.com/settings/keys
+- git全局配置
+	- 设置全局用户名：
+		- git config --global user.name "fishyer"
+	- 设置全局邮箱：
+		- git config --global user.email "fishyer@foxmail.com"
+	- 查看配置
+		- git config --list
+- git提交文件到github
+	- git add .
+	- git commit -m "test commit"
+	- git push -f origin main
