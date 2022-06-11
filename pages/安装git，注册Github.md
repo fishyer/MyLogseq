@@ -13,14 +13,8 @@
 	- ssh-keygen -t ed25519 -C "fishyer@foxmail.com"
 - 在github添加你的公钥
 	- https://github.com/settings/keys
-- git全局配置
-	- 设置全局用户名：
-		- git config --global user.name "fishyer"
-	- 设置全局邮箱：
-		- git config --global user.email "fishyer@foxmail.com"
-	- 查看配置
-		- git config --list
-- git提交文件到github
+- 🍎[[git全局配置]]
+- git提交文件的3大步骤
 	- git add .
 	- git commit -m "test commit"
 	- git push -f origin main

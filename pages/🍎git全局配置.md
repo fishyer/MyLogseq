@@ -1,0 +1,11 @@
+-
+- 设置全局用户名：
+	- git config --global user.name "fishyer"
+- 设置全局邮箱：
+	- git config --global user.email "fishyer@foxmail.com"
+- 打开Git命令页面，执行git命令脚本：修改设置，解除ssl验证
+	- git config --global http.sslVerify "false"
+	- 不然的话，以https方式提交时，有可能报错：
+		- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202206112338053.png)
+- 查看配置
+	- git config --list
