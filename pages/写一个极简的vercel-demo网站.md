@@ -1,5 +1,6 @@
 - [[Vercel常用命令]]
 - 添加index.html，部署在云端
+  collapsed:: true
 	- 本机部署
 		- vercel dev --debug
 	- 云端部署
@@ -7,8 +8,10 @@
 	- 云端生产环境部署
 		- vercel -prodvercel
 		- https://vercel-demo-zeta-kohl.vercel.app/
-- 借助github来自动部署，将版本管理和自动部署结合
-	-
+- 借助github来自动部署vercel站点
+	- 上传本地代码到github
+	- 导入github项目到vercel里面
+	- 以后只要代码被提交到github了，就会自动触发vercel的部署，将版本管理和自动部署结合
 - [[添加server.js，部署到云端]]
 -
 -
