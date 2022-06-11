@@ -1,5 +1,7 @@
 - 上传本地代码到github
 - 提示OpenSSL错误时
+	- 报错提示
+		- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202206112338053.png)
 	- 1-可以尝试将github仓库的https链接改为ssh链接
 		- 示例：
 			- 查看当前远程仓库
@@ -12,4 +14,6 @@
 		- git config --global http.sslVerify "false"
 - 导入github项目到vercel里面
 - 以后只要代码被提交到github了，就会自动触发vercel的部署，将版本管理和自动部署结合
--
+- 参考资料
+	- [[git的3个重要的全局配置]]
+	- [[git提交文件的3大步骤]]

@@ -7,5 +7,13 @@
 	- git config --global http.sslVerify "false"
 	- 不然的话，以https方式提交时，有可能报错：
 		- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202206112338053.png)
-- 查看配置
+- 查看所有配置
 	- git config --list
+- 查看单个配置
+	- git config --global http.sslVerify
+- git的3个配置级别
+	- system-系统级: 在git安装以后，git的默认配置项都在这里；
+	- global-全局级：登录用户全局级别的git配置；
+	- local -仓库级: 对不同的仓库进行自定义配置。
+	- 一般来说，使用global级别就可以了
+-

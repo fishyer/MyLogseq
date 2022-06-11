@@ -13,8 +13,8 @@
 	- ssh-keygen -t ed25519 -C "fishyer@foxmail.com"
 - 在github添加你的公钥
 	- https://github.com/settings/keys
-- 🍎[[git全局配置]]
-- git提交文件的3大步骤
-	- git add .
-	- git commit -m "test commit"
-	- git push -f origin main
+- 参考资料
+  id:: 62a4875b-54d4-4745-b153-50506dff3758
+	- [[git的3个重要的全局配置]]
+	- [[git提交文件的3大步骤]]
+-
