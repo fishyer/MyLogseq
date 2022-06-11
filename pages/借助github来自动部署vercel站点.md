@@ -1,0 +1,3 @@
+- 上传本地代码到github
+- 导入github项目到vercel里面
+- 以后只要代码被提交到github了，就会自动触发vercel的部署，将版本管理和自动部署结合

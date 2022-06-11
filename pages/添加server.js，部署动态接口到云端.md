@@ -1,10 +1,14 @@
-title:: 添加server.js，部署到云端
+title:: 添加server.js，部署动态接口到云端
 
-- node server.js
-- Ctrl+C退出
+- title:: 添加server.js，部署动态接口到云端
+- 添加/api/server.js，注意路径的文件夹一定要是api ,server.js则是可以随便命名的
+	- 通过node来启动服务，其实vercel启动服务底层也是用的node
+		- node server.js
+	- Ctrl+C退出服务
 - 获取当前时间并返回给接口
-	- 安装库
+	- 安装库，在直接运行测试代码时会报错，提示找不到module，安装一下就好了
 		- npm i moment --save
+		- 或
 		- yarn add moment
 	- 导入库
 		- var moment = require('moment');
