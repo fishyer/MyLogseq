@@ -5,6 +5,7 @@
 	- git config --global user.email "fishyer@foxmail.com"
 - 打开Git命令页面，执行git命令脚本：修改设置，解除ssl验证
 	- git config --global http.sslVerify "false"
+	- git config --global http.proxy http[s]://userName:password@proxyaddress:port
 	- 不然的话，以https方式提交时，有可能报错：
 		- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202206112338053.png)
 - 查看所有配置
