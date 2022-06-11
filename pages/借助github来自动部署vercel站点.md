@@ -1,3 +1,15 @@
 - 上传本地代码到github
+- 提示OpenSSL错误时
+	- 1-可以尝试将github仓库的https链接改为ssh链接
+		- 示例：
+			- 查看当前远程仓库
+				- git remote -v
+			- 删除当前的origin远程仓库-https
+				- git remote remove origin
+			- 添加origin远程仓库-ssh
+				- git remote add origin git@github.com:fishyer/demo02.git
+	- 2-打开Git命令页面，执行git命令脚本：修改设置，解除ssl验证
+		- git config --global http.sslVerify "false"
 - 导入github项目到vercel里面
 - 以后只要代码被提交到github了，就会自动触发vercel的部署，将版本管理和自动部署结合
+-
