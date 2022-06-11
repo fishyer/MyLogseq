@@ -1,4 +1,3 @@
--
 - 设置全局用户名：
 	- `git config --global user.name "fishyer"`
 - 设置全局邮箱：
