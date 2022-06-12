@@ -1,0 +1,4 @@
+- 两种方式
+	- 1-主动在设置里面配置
+		- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202206120817233.png){:height 192, :width 299}
+	- 2-在提交代码时，如果没有授权登录的话，会自动提示授权Github登录
