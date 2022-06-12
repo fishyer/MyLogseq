@@ -3,7 +3,7 @@ alias:: 目录
 - 🤝 [这是一个共建共享的工具和思维模型知识库](https://logseq.fishyer.com)
 - 个人微信：fishyer2850
 - [:a {href "#/all-journals"} "更新日志"]
-- [[MyHulu/archive/MyLogseq/pages/TODO]]
+- [[TODO]]
 - Star
 	- 🍇 精选集锦
 		- 🧰 [Fishyer的工具数据库](https://notion.fishyer.com/Fishyer-708f0570fbec4dcc896cadabcd2d0c9a)
