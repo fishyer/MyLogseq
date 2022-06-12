@@ -1,4 +1,7 @@
 - 上传本地代码到github
+	- 前提：
+		- [[在VSCode授权登录GitHub]]
+		- [[git的3个重要的全局配置]]
 - 提示OpenSSL错误时
 	- 报错提示
 		- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202206112338053.png)
