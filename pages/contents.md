@@ -5,6 +5,7 @@ alias:: 目录
 - [:a {href "#/all-journals"} "更新日志"]
 - [[TODO]]
 - Star
+  collapsed:: true
 	- 🍇 精选集锦
 		- 🧰 [Fishyer的工具数据库](https://notion.fishyer.com/Fishyer-708f0570fbec4dcc896cadabcd2d0c9a)
 		- 👁 [Fishyer的信源数据库](https://notion.fishyer.com/6341aa682f0a4936bffb44e69afe1fad?v=8b84cad40cf64f009a58577632ee15aa)
