@@ -1,4 +1,3 @@
-# TraverseDir
 - [《python 基础语法训练营分享内容汇总》笔记与测试题.txt](file:///E:\BaiduNetdiskDownload\python-风变-2021\1-基础语法\《python基础语法训练营分享内容汇总》笔记与测试题.txt)
 - 完课宝藏+复习资料
   collapsed:: true
@@ -49,7 +48,6 @@
 	  collapsed:: true
 		- [第 2 关认知课-制定学习计划.html](file:///E:\BaiduNetdiskDownload\python-风变-2021\1-基础语法\第2关\认知课\第2关认知课-制定学习计划.html)
 	- 课后练习
-	  collapsed:: true
 		- [257611b5f6111f78ce139bbe85be626.png](file:///E:\BaiduNetdiskDownload\python-风变-2021\1-基础语法\第2关\课后练习\257611b5f6111f78ce139bbe85be626.png)
 		- [实战 1-format()应用 1-1.html](<file:///E:\BaiduNetdiskDownload\python-风变-2021\1-基础语法\第2关\课后练习\实战1-format()应用1-1.html>)
 		- [实战 1-format()应用 1-2.html](<file:///E:\BaiduNetdiskDownload\python-风变-2021\1-基础语法\第2关\课后练习\实战1-format()应用1-2.html>)
@@ -68,7 +66,6 @@
 	  collapsed:: true
 		- [第 3 关认知课-打开正确的求助.html](file:///E:\BaiduNetdiskDownload\python-风变-2021\1-基础语法\第3关\认知课\第3关认知课-打开正确的求助.html)
 	- 课后练习
-	  collapsed:: true
 		- [第 3 关-实战 2-条件判断嵌套.html](file:///E:\BaiduNetdiskDownload\python-风变-2021\1-基础语法\第3关\课后练习\第3关-实战2-条件判断嵌套.html)
 		- [第 3 关-计算员工年休假天数.html](file:///E:\BaiduNetdiskDownload\python-风变-2021\1-基础语法\第3关\课后练习\第3关-计算员工年休假天数.html)
 		- [第 3 关-计算员工年休假天数 2.html](file:///E:\BaiduNetdiskDownload\python-风变-2021\1-基础语法\第3关\课后练习\第3关-计算员工年休假天数2.html)

@@ -31,6 +31,12 @@
  {:block/name "2022-06-11",
   :block/created-at 1654935037440,
   :block/updated-at 1654935037440}
+ {:block/name "2022-06-12",
+  :block/created-at 1654991123454,
+  :block/updated-at 1654991123454}
+ {:block/name "2022-06-13",
+  :block/created-at 1655108555650,
+  :block/updated-at 1655108555650}
  {:block/name "233v2.com_ss_104.128.88.110",
   :block/created-at 1654937254963,
   :block/updated-at 1654937254963}
@@ -82,6 +88,502 @@
  {:block/name "done",
   :block/created-at 1652030050997,
   :block/updated-at 1652030050997}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\《python基础语法训练营分享内容汇总》笔记与测试题.txt",
+  :block/created-at 1655113054281,
+  :block/updated-at 1655113054281}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\csv的读写流程.pdf",
+  :block/created-at 1655113054284,
+  :block/updated-at 1655113054284}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\python_基础语法学习_第1讲_---类的使用.pdf",
+  :block/created-at 1655113054282,
+  :block/updated-at 1655113054282}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\python入门指南.pdf",
+  :block/created-at 1655113054282,
+  :block/updated-at 1655113054282}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\python常见词中英文互译.pdf",
+  :block/created-at 1655113054285,
+  :block/updated-at 1655113054285}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\python编程-从入门到实践.pdf",
+  :block/created-at 1655113054283,
+  :block/updated-at 1655113054283}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\python编译器常见安装问题_yb_.pdf",
+  :block/created-at 1655113054286,
+  :block/updated-at 1655113054286}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\《那些年我们遇到的报错》.pdf",
+  :block/created-at 1655113054287,
+  :block/updated-at 1655113054287}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\全局变量与局部变量.pdf",
+  :block/created-at 1655113054287,
+  :block/updated-at 1655113054287}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\函数和类的调用流程.pdf",
+  :block/created-at 1655113054288,
+  :block/updated-at 1655113054288}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\基础语法知识库.pdf",
+  :block/created-at 1655113054289,
+  :block/updated-at 1655113054289}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\学习笔记\\基础语法6_学习笔记.pdf",
+  :block/created-at 1655113054290,
+  :block/updated-at 1655113054290}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\学习笔记\\基础语法7_学习笔记.pdf",
+  :block/created-at 1655113054290,
+  :block/updated-at 1655113054290}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\学习笔记\\基础语法第1关笔记.pdf",
+  :block/created-at 1655113054291,
+  :block/updated-at 1655113054291}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\学习笔记\\基础语法第2关笔记.pdf",
+  :block/created-at 1655113054292,
+  :block/updated-at 1655113054292}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\学习笔记\\基础语法第3关笔记.pdf",
+  :block/created-at 1655113054294,
+  :block/updated-at 1655113054294}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\学习笔记\\基础语法第4关笔记.pdf",
+  :block/created-at 1655113054294,
+  :block/updated-at 1655113054294}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\学习笔记\\基础语法第5关笔记.pdf",
+  :block/created-at 1655113054295,
+  :block/updated-at 1655113054295}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\学习笔记\\基础语法第8关笔记.pdf",
+  :block/created-at 1655113054296,
+  :block/updated-at 1655113054296}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\学习笔记\\基础语法第9关笔记.pdf",
+  :block/created-at 1655113054297,
+  :block/updated-at 1655113054297}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\报错的解决方式.pdf",
+  :block/created-at 1655113054297,
+  :block/updated-at 1655113054297}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\无基础新手到底要怎么理解_函数_.pdf",
+  :block/created-at 1655113054298,
+  :block/updated-at 1655113054298}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\比较好的学习网站分享.pdf",
+  :block/created-at 1655113054299,
+  :block/updated-at 1655113054299}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\笨办法学python.pdf",
+  :block/created-at 1655113054299,
+  :block/updated-at 1655113054299}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\简明python教程.pdf",
+  :block/created-at 1655113054300,
+  :block/updated-at 1655113054300}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\课后习题讲解\\第2关课后练习讲解.pdf",
+  :block/created-at 1655113054301,
+  :block/updated-at 1655113054301}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\课后习题讲解\\第3关课后练习讲解.pdf",
+  :block/created-at 1655113054301,
+  :block/updated-at 1655113054301}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\课后习题讲解\\第4关课后练习讲解.pdf",
+  :block/created-at 1655113054302,
+  :block/updated-at 1655113054302}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\课后习题讲解\\第5关课后练习讲解.pdf",
+  :block/created-at 1655113054303,
+  :block/updated-at 1655113054303}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\课后习题讲解\\第6关课后练习讲解.pdf",
+  :block/created-at 1655113054303,
+  :block/updated-at 1655113054303}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\课后习题讲解\\第7关课后练习讲解.pdf",
+  :block/created-at 1655113054304,
+  :block/updated-at 1655113054304}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\课后习题讲解\\第8关课后练习讲解.pdf",
+  :block/created-at 1655113054305,
+  :block/updated-at 1655113054305}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\完课宝藏+复习资料\\高效阅读入门.pdf",
+  :block/created-at 1655113054305,
+  :block/updated-at 1655113054305}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第1关\\第1关闪光“新手村”-新的数据类型及应用.html",
+  :block/created-at 1655113054306,
+  :block/updated-at 1655113054306}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第1关\\课程沙盒介绍.html",
+  :block/created-at 1655113054307,
+  :block/updated-at 1655113054307}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第2关\\python核心知识应用.html",
+  :block/created-at 1655113054308,
+  :block/updated-at 1655113054308}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第2关\\第2关-课堂练习1-1.html",
+  :block/created-at 1655113054308,
+  :block/updated-at 1655113054308}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第2关\\第2关-课堂练习1-2.html",
+  :block/created-at 1655113054309,
+  :block/updated-at 1655113054309}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第2关\\第2关-课堂练习1-3.html",
+  :block/created-at 1655113054310,
+  :block/updated-at 1655113054310}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第2关\\第2关初进闪光-重新了解python.html",
+  :block/created-at 1655113054311,
+  :block/updated-at 1655113054311}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第2关\\认知课\\第2关认知课-制定学习计划.html",
+  :block/created-at 1655113054312,
+  :block/updated-at 1655113054312}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第2关\\课后练习\\257611b5f6111f78ce139bbe85be626.png",
+  :block/created-at 1655113054312,
+  :block/updated-at 1655113054312}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第2关\\课后练习\\实战1-format()应用1-1.html",
+  :block/created-at 1655113054314,
+  :block/updated-at 1655113054314}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第2关\\课后练习\\实战1-format()应用1-2.html",
+  :block/created-at 1655113054315,
+  :block/updated-at 1655113054315}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第2关\\课后练习\\实战2-format()应用进阶1-1.html",
+  :block/created-at 1655113054315,
+  :block/updated-at 1655113054315}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第2关\\课后练习\\实战2-format()应用进阶1-2.html",
+  :block/created-at 1655113054316,
+  :block/updated-at 1655113054316}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第2关\\课后练习\\第2关课后练习-重新了解python.html",
+  :block/created-at 1655113054317,
+  :block/updated-at 1655113054317}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第3关\\主关卡中的练习\\猜年龄练习题v1-0.html",
+  :block/created-at 1655113054318,
+  :block/updated-at 1655113054318}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第3关\\主关卡中的练习\\猜年龄练习题v2-0.html",
+  :block/created-at 1655113054319,
+  :block/updated-at 1655113054319}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第3关\\主关卡中的练习\\第3关补全代码.html",
+  :block/created-at 1655113054319,
+  :block/updated-at 1655113054319}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第3关\\第3关-课堂练习-代码题.html",
+  :block/created-at 1655113054320,
+  :block/updated-at 1655113054320}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第3关\\第3关条件判断.html",
+  :block/created-at 1655113054321,
+  :block/updated-at 1655113054321}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第3关\\认知课\\第3关认知课-打开正确的求助.html",
+  :block/created-at 1655113054322,
+  :block/updated-at 1655113054322}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第3关\\课后练习\\第3关-实战2-条件判断嵌套.html",
+  :block/created-at 1655113054323,
+  :block/updated-at 1655113054323}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第3关\\课后练习\\第3关-计算员工年休假天数.html",
+  :block/created-at 1655113054323,
+  :block/updated-at 1655113054323}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第3关\\课后练习\\第3关-计算员工年休假天数2.html",
+  :block/created-at 1655113054324,
+  :block/updated-at 1655113054324}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第3关\\课后练习\\第3关课后练习-条件判断.html",
+  :block/created-at 1655113054325,
+  :block/updated-at 1655113054325}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第4关\\向上生长-列表元组.html",
+  :block/created-at 1655113054325,
+  :block/updated-at 1655113054325}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第4关\\认知课\\认知课-保障高效复习.html",
+  :block/created-at 1655113054326,
+  :block/updated-at 1655113054326}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第4关\\课后练习\\实战1-成员运算符and列表1-1.html",
+  :block/created-at 1655113054327,
+  :block/updated-at 1655113054327}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第4关\\课后练习\\实战1-成员运算符and列表1-2.html",
+  :block/created-at 1655113054327,
+  :block/updated-at 1655113054327}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第4关\\课后练习\\实战2-索引1-1.html",
+  :block/created-at 1655113054328,
+  :block/updated-at 1655113054328}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第4关\\课后练习\\实战2-索引1-2.html",
+  :block/created-at 1655113054329,
+  :block/updated-at 1655113054329}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第4关\\课后练习\\课后练习-列表元组.html",
+  :block/created-at 1655113054329,
+  :block/updated-at 1655113054329}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第4关\\选修课堂\\第4关沙场秋点兵-序列的拓展应用.html",
+  :block/created-at 1655113054330,
+  :block/updated-at 1655113054330}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第5关\\第5关打倒恶性循环-for循环.html",
+  :block/created-at 1655113054331,
+  :block/updated-at 1655113054331}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第5关\\认知课\\第5关认知课-如何进行归因.html",
+  :block/created-at 1655113054331,
+  :block/updated-at 1655113054331}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第5关\\课后练习\\for循环.html",
+  :block/created-at 1655112965206,
+  :block/updated-at 1655112965206}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第5关\\课后练习\\实战-循环嵌套1-1.html",
+  :block/created-at 1655113054333,
+  :block/updated-at 1655113054333}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第5关\\课后练习\\实战-循环嵌套1-2.html",
+  :block/created-at 1655113054334,
+  :block/updated-at 1655113054334}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第5关\\课后练习\\实战-循环嵌套1-3.html",
+  :block/created-at 1655113054335,
+  :block/updated-at 1655113054335}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第5关\\选修课堂\\while循环-循环的拓展应用.html",
+  :block/created-at 1655113054335,
+  :block/updated-at 1655113054335}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第5关\\选修课堂\\while循环执行流程.html",
+  :block/created-at 1655113054336,
+  :block/updated-at 1655113054336}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第5关\\选修课堂\\课堂练习-代码题.html",
+  :block/created-at 1655113054337,
+  :block/updated-at 1655113054337}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第6关\\主关卡中的练习\\3-2字典中键和值的数据类型1-1.html",
+  :block/created-at 1655113054338,
+  :block/updated-at 1655113054338}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第6关\\主关卡中的练习\\3-2字典中键和值的数据类型1-2.html",
+  :block/created-at 1655113054338,
+  :block/updated-at 1655113054338}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第6关\\主关卡中的练习\\当值是字典时，如何取值_1-1.html",
+  :block/created-at 1655113054339,
+  :block/updated-at 1655113054339}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第6关\\主关卡中的练习\\当值是字典时，如何取值_1-2.html",
+  :block/created-at 1655113054339,
+  :block/updated-at 1655113054339}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第6关\\主关卡中的练习\\当值是字典时，如何取值_1-3.html",
+  :block/created-at 1655113054340,
+  :block/updated-at 1655113054340}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第6关\\第6关杂乱的简历-字典.html",
+  :block/created-at 1655113054341,
+  :block/updated-at 1655113054341}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第6关\\认知课\\第6关认知课-刻意练习.html",
+  :block/created-at 1655113054341,
+  :block/updated-at 1655113054341}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第6关\\课后练习\\第6关-实战1-更新商品字典1-1.html",
+  :block/created-at 1655113054343,
+  :block/updated-at 1655113054343}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第6关\\课后练习\\第6关-实战1-更新商品字典1-2.html",
+  :block/created-at 1655113054343,
+  :block/updated-at 1655113054343}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第6关\\课后练习\\第6关-实战2-计算学生总分1-1.html",
+  :block/created-at 1655113054344,
+  :block/updated-at 1655113054344}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第6关\\课后练习\\第6关-实战2-计算学生总分1-2.html",
+  :block/created-at 1655113054345,
+  :block/updated-at 1655113054345}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第6关\\课后练习\\第6关-实战2-计算学生总分1-3.html",
+  :block/created-at 1655113054346,
+  :block/updated-at 1655113054346}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第6关\\课后练习\\第6关-实战2-计算学生总分1-4.html",
+  :block/created-at 1655113054347,
+  :block/updated-at 1655113054347}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第6关\\课后练习\\第6关课后练习-字典.html",
+  :block/created-at 1655113054347,
+  :block/updated-at 1655113054347}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\主关卡中的练习\\位置参数1-1.html",
+  :block/created-at 1655113054349,
+  :block/updated-at 1655113054349}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\主关卡中的练习\\位置参数1-2.html",
+  :block/created-at 1655113054349,
+  :block/updated-at 1655113054349}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\主关卡中的练习\\函数的执行流程.html",
+  :block/created-at 1655113054350,
+  :block/updated-at 1655113054350}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\主关卡中的练习\\参数1-1.html",
+  :block/created-at 1655113054351,
+  :block/updated-at 1655113054351}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\主关卡中的练习\\参数1-2.html",
+  :block/created-at 1655113054352,
+  :block/updated-at 1655113054352}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\主关卡中的练习\\实例化对象.html",
+  :block/created-at 1655113054352,
+  :block/updated-at 1655113054352}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\主关卡中的练习\\汽车蓝图.html",
+  :block/created-at 1655113054353,
+  :block/updated-at 1655113054353}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\主关卡中的练习\\类的实例化（下）1-1.html",
+  :block/created-at 1655113054354,
+  :block/updated-at 1655113054354}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\主关卡中的练习\\类的实例化（下）1-2.html",
+  :block/created-at 1655113054355,
+  :block/updated-at 1655113054355}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\主关卡中的练习\\终极练车场.html",
+  :block/created-at 1655113054355,
+  :block/updated-at 1655113054355}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\主关卡中的练习\\调用类的方法1-1.html",
+  :block/created-at 1655113054356,
+  :block/updated-at 1655113054356}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\主关卡中的练习\\调用类的方法1-2.html",
+  :block/created-at 1655113054357,
+  :block/updated-at 1655113054357}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\主关卡中的练习\\调用类的方法1-3.html",
+  :block/created-at 1655113054358,
+  :block/updated-at 1655113054358}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\主关卡中的练习\\调用类的方法1-4.html",
+  :block/created-at 1655113054358,
+  :block/updated-at 1655113054358}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\第7关定义你自己-函数与类.html",
+  :block/created-at 1655113054359,
+  :block/updated-at 1655113054359}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\认知课\\第7关认知课-解决问题.html",
+  :block/created-at 1655113054359,
+  :block/updated-at 1655113054359}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\课后练习\\学生成绩分析函数.html",
+  :block/created-at 1655113054360,
+  :block/updated-at 1655113054360}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\课后练习\\第7关课后练习-模块导入与文件读写.html",
+  :block/created-at 1655113054361,
+  :block/updated-at 1655113054361}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\选修课堂\\return语句.html",
+  :block/created-at 1655113054361,
+  :block/updated-at 1655113054361}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\选修课堂\\代码体验.html",
+  :block/created-at 1655113054362,
+  :block/updated-at 1655113054362}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第7关\\选修课堂\\第7关returnand默认参数-函数的扩展应用.html",
+  :block/created-at 1655113054363,
+  :block/updated-at 1655113054363}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第8关\\主关卡中的练习\\dictreader()类1-3.html",
+  :block/created-at 1655113054363,
+  :block/updated-at 1655113054363}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第8关\\主关卡中的练习\\代码体验.html",
+  :block/created-at 1655113054364,
+  :block/updated-at 1655113054364}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第8关\\主关卡中的练习\\关于编码的那些事.html",
+  :block/created-at 1655113054365,
+  :block/updated-at 1655113054365}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第8关\\主关卡中的练习\\批量读取写入csv文件.html",
+  :block/created-at 1655113054366,
+  :block/updated-at 1655113054366}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第8关\\主关卡中的练习\\文件写入.html",
+  :block/created-at 1655113054366,
+  :block/updated-at 1655113054366}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第8关\\主关卡中的练习\\文件的读取与写入.html",
+  :block/created-at 1655113054367,
+  :block/updated-at 1655113054367}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第8关\\主关卡中的练习\\文件读取的练习1-1.html",
+  :block/created-at 1655113054368,
+  :block/updated-at 1655113054368}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第8关\\主关卡中的练习\\文件读取的练习1-2.html",
+  :block/created-at 1655113054368,
+  :block/updated-at 1655113054368}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第8关\\第8关车到山前-模块导入与文件读写.html",
+  :block/created-at 1655113054369,
+  :block/updated-at 1655113054369}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第8关\\课后练习\\查看会员信息.html",
+  :block/created-at 1655113054370,
+  :block/updated-at 1655113054370}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第8关\\课后练习\\模块导入与文件读写.html",
+  :block/created-at 1655113054370,
+  :block/updated-at 1655113054370}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第9关\\没有成功是因为失败得太少.html",
+  :block/created-at 1655113054371,
+  :block/updated-at 1655113054371}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第9关\\课后练习\\能不能吃饺子.html",
+  :block/created-at 1655113054372,
+  :block/updated-at 1655113054372}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\第9关\\课后练习\\课后练习-问题排查.html",
+  :block/created-at 1655113054372,
+  :block/updated-at 1655113054372}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\语法目录.html",
+  :block/created-at 1655113054373,
+  :block/updated-at 1655113054373}
  {:block/name "eagle",
   :block/created-at 1652157387201,
   :block/updated-at 1652157387201}
@@ -118,9 +620,15 @@
  {:block/name "git备忘",
   :block/created-at 1652041122731,
   :block/updated-at 1652041122731}
+ {:block/name "git提交文件的3大步骤",
+  :block/created-at 1654991123598,
+  :block/updated-at 1654991123598}
  {:block/name "git更新忽略文件",
   :block/created-at 1652041122732,
   :block/updated-at 1652041122732}
+ {:block/name "git的3个重要的全局配置",
+  :block/created-at 1654991123629,
+  :block/updated-at 1654992186888}
  {:block/name "good",
   :block/created-at 1652017706907,
   :block/updated-at 1652017706907}
@@ -321,6 +829,9 @@
  {:block/name "python",
   :block/created-at 1654756399108,
   :block/updated-at 1654756399108}
+ {:block/name "python-风变-1-基础语法",
+  :block/created-at 1655112961797,
+  :block/updated-at 1655113984050}
  {:block/name "readme",
   :block/created-at 1652029780284,
   :block/updated-at 1654679271158}
@@ -357,6 +868,9 @@
  {:block/name "v2ray-shell",
   :block/created-at 1654937814989,
   :block/updated-at 1654937814989}
+ {:block/name "vercel常用命令",
+  :block/created-at 1654991123680,
+  :block/updated-at 1654991123680}
  {:block/name "vscode",
   :block/created-at 1652035878507,
   :block/updated-at 1652035878507}
@@ -417,9 +931,15 @@
  {:block/name "信源",
   :block/created-at 1652344113071,
   :block/updated-at 1652344113071}
+ {:block/name "信源/sync-conflict-20220610-001501-4wuxwxu",
+  :block/created-at 1655108554965,
+  :block/updated-at 1655108554965}
  {:block/name "信源清单",
   :block/created-at 1652030054552,
   :block/updated-at 1652030054552}
+ {:block/name "借助github来自动部署vercel站点",
+  :block/created-at 1654991123753,
+  :block/updated-at 1654992150074}
  {:block/name "像编辑大纲一样来群聊",
   :block/created-at 1652029780275,
   :block/updated-at 1652029780275}
@@ -429,6 +949,9 @@
  {:block/name "公告",
   :block/created-at 1652094778843,
   :block/updated-at 1652094778843}
+ {:block/name "写一个极简的vercel-demo网站",
+  :block/created-at 1654991123788,
+  :block/updated-at 1654991123788}
  {:block/name "分享",
   :block/created-at 1652035878485,
   :block/updated-at 1652035878485}
@@ -468,6 +991,9 @@
  {:block/name "图床的折腾之路",
   :block/created-at 1652030054329,
   :block/updated-at 1652030054329}
+ {:block/name "在vscode授权登录github",
+  :block/created-at 1654992150074,
+  :block/updated-at 1654993832316}
  {:block/name "域名",
   :block/created-at 1652030054474,
   :block/updated-at 1652030054474}
@@ -498,9 +1024,6 @@
  {:block/name "学习目标",
   :block/created-at 1652344113117,
   :block/updated-at 1652344113117}
- {:block/name "学习群",
-  :block/created-at 1654948695108,
-  :block/updated-at 1654948695224}
  {:block/name "学习计划",
   :block/created-at 1653637341367,
   :block/updated-at 1653646394184}
@@ -531,9 +1054,15 @@
  {:block/name "建群目的",
   :block/created-at 1652030054512,
   :block/updated-at 1654675833139}
+ {:block/name "建群目的 (conflict 2022-06-11-15-46-36)",
+  :block/created-at 1655108555008,
+  :block/updated-at 1655108555008}
  {:block/name "建议直接将所有可公开的md存放到一个库里面",
   :block/created-at 1654680181792,
   :block/updated-at 1654680181792}
+ {:block/name "强烈推荐的vscode-git插件",
+  :block/created-at 1654996835994,
+  :block/updated-at 1654996835994}
  {:block/name "录屏工具",
   :block/created-at 1652094778991,
   :block/updated-at 1652094778991}
@@ -612,6 +1141,15 @@
  {:block/name "沙牛清单",
   :block/created-at 1652094779394,
   :block/updated-at 1652094779394}
+ {:block/name "注册vercel,安装vercel-cli",
+  :block/created-at 1654991123827,
+  :block/updated-at 1654991123827}
+ {:block/name "添加server.js",
+  :block/created-at 1654991123907,
+  :block/updated-at 1654991123907}
+ {:block/name "添加server.js，部署动态接口到云端",
+  :block/created-at 1654991123910,
+  :block/updated-at 1654991123910}
  {:block/name "滴答清单",
   :block/created-at 1652017672463,
   :block/updated-at 1652017672463}
@@ -660,6 +1198,9 @@
  {:block/name "精选工具",
   :block/created-at 1652044818742,
   :block/updated-at 1652044818742}
+ {:block/name "精选工具 (conflict 2022-06-11-15-46-36)",
+  :block/created-at 1655108555048,
+  :block/updated-at 1655108555048}
  {:block/name "精选笔记",
   :block/created-at 1652030054423,
   :block/updated-at 1652030054423}
@@ -672,6 +1213,9 @@
  {:block/name "编程入门-学习群-百度网盘",
   :block/created-at 1654361399260,
   :block/updated-at 1654361399358}
+ {:block/name "编程入门-学习群-简介",
+  :block/created-at 1654991123452,
+  :block/updated-at 1654991123452}
  {:block/name "编程入门-学习群-群说明",
   :block/created-at 1654361440808,
   :block/updated-at 1654361558592}
@@ -702,6 +1246,9 @@
  {:block/name "自建v2ray服务",
   :block/created-at 1654938196347,
   :block/updated-at 1654938196519}
+ {:block/name "芦笋-录屏工具",
+  :block/created-at 1654991123449,
+  :block/updated-at 1654991123449}
  {:block/name "葫芦笔记",
   :block/created-at 1652044818735,
   :block/updated-at 1652044818735}
@@ -729,6 +1276,9 @@
  {:block/name "通识知识库",
   :block/created-at 1652044818800,
   :block/updated-at 1652044818800}
+ {:block/name "部署动态接口到云端",
+  :block/created-at 1654991123908,
+  :block/updated-at 1654991123908}
  {:block/name "配置logseq自动发布相关流程",
   :block/created-at 1652044818772,
   :block/updated-at 1652044818772}
