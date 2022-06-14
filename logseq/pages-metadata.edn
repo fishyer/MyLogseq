@@ -37,6 +37,9 @@
  {:block/name "2022-06-13",
   :block/created-at 1655108555650,
   :block/updated-at 1655108555650}
+ {:block/name "2022-06-14",
+  :block/created-at 1655136014040,
+  :block/updated-at 1655136014040}
  {:block/name "233v2.com_ss_104.128.88.110",
   :block/created-at 1654937254963,
   :block/updated-at 1654937254963}
@@ -584,6 +587,86 @@
   "e:\\baidunetdiskdownload\\python-风变-2021\\1-基础语法\\语法目录.html",
   :block/created-at 1655113054373,
   :block/updated-at 1655113054373}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第1关网页追踪者-信息的请求与收集.html",
+  :block/created-at 1655114055548,
+  :block/updated-at 1655114055548}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第2关获取网页.html",
+  :block/created-at 1655114055552,
+  :block/updated-at 1655114055552}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第3关认识网页.html",
+  :block/created-at 1655114055550,
+  :block/updated-at 1655114055550}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第4关解析网页.html",
+  :block/created-at 1655114055557,
+  :block/updated-at 1655114055557}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第5关存储数据.html",
+  :block/created-at 1655114055553,
+  :block/updated-at 1655114055553}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第6关爬个电影-带信息请求.html",
+  :block/created-at 1655114055556,
+  :block/updated-at 1655114055556}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第7关收集评论-登录凭证.html",
+  :block/created-at 1655114055549,
+  :block/updated-at 1655114055549}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第8关发表评论-提交数据.html",
+  :block/created-at 1655114055555,
+  :block/updated-at 1655114055555}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第9关爬虫练习场.html",
+  :block/created-at 1655114055551,
+  :block/updated-at 1655114055551}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\3-自动化办公\\第1关高效办公导学课.html",
+  :block/created-at 1655115483721,
+  :block/updated-at 1655115483721}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\3-自动化办公\\第2关openpyxl基础知识.html",
+  :block/created-at 1655115483721,
+  :block/updated-at 1655115483721}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\3-自动化办公\\第3关表格读写.html",
+  :block/created-at 1655115483722,
+  :block/updated-at 1655115483722}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\3-自动化办公\\第4关筛选匹配.html",
+  :block/created-at 1655115483723,
+  :block/updated-at 1655115483723}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\3-自动化办公\\第5关设置excel样式.html",
+  :block/created-at 1655115483724,
+  :block/updated-at 1655115483724}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\3-自动化办公\\第6关批量发送email.html",
+  :block/created-at 1655115483726,
+  :block/updated-at 1655115483726}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\3-自动化办公\\第7关处理word文件.html",
+  :block/created-at 1655115483728,
+  :block/updated-at 1655115483728}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\3-自动化办公\\第8关高效办公练习场.html",
+  :block/created-at 1655115483729,
+  :block/updated-at 1655115483729}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\4-数据分析\\第1关_科学诊断-数据分析与“医生”.html",
+  :block/created-at 1655115938923,
+  :block/updated-at 1655115938923}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\4-数据分析\\第1关_科学诊断-数据分析与医生.html",
+  :block/created-at 1655116077568,
+  :block/updated-at 1655116077568}
+ {:block/name
+  "e:\\baidunetdiskdownload\\python-风变-2021\\4-数据分析\\第2关_明确目标.html",
+  :block/created-at 1655115938924,
+  :block/updated-at 1655115938924}
  {:block/name "eagle",
   :block/created-at 1652157387201,
   :block/updated-at 1652157387201}
@@ -829,9 +912,21 @@
  {:block/name "python",
   :block/created-at 1654756399108,
   :block/updated-at 1654756399108}
+ {:block/name "python-风变",
+  :block/created-at 1655114560186,
+  :block/updated-at 1655115744845}
  {:block/name "python-风变-1-基础语法",
   :block/created-at 1655112961797,
   :block/updated-at 1655113984050}
+ {:block/name "python-风变-2-爬虫精进",
+  :block/created-at 1655114027890,
+  :block/updated-at 1655114027890}
+ {:block/name "python-风变-3-自动化办公",
+  :block/created-at 1655115707343,
+  :block/updated-at 1655115758326}
+ {:block/name "python-风变-4-数据分析",
+  :block/created-at 1655115726637,
+  :block/updated-at 1655115761890}
  {:block/name "readme",
   :block/created-at 1652029780284,
   :block/updated-at 1654679271158}
@@ -1210,9 +1305,6 @@
  {:block/name "编程入门-学习群",
   :block/created-at 1654361282371,
   :block/updated-at 1654946869954}
- {:block/name "编程入门-学习群-百度网盘",
-  :block/created-at 1654361399260,
-  :block/updated-at 1654361399358}
  {:block/name "编程入门-学习群-简介",
   :block/created-at 1654991123452,
   :block/updated-at 1654991123452}
