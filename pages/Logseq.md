@@ -40,7 +40,7 @@ public:: true
 	- 给Logseq新手的建议
 	  collapsed:: true
 		- 1-就当一个普通的[[大纲]]软件来用就行了，Tab键变成下级节点，Shift+Tab变成上级节点
-		- 2-就当一个普通的[[MyObsidianNote/History/01-Inbox/MarkDown]]软件就行了，## 二级标题，### 三级标题，更多语法看[这里](https://cubox.pro/share/bWpE42)
+		- 2-就当一个普通的[[MyObsidianNote/Archive/01-Inbox/MarkDown]]软件就行了，## 二级标题，### 三级标题，更多语法看[这里](https://cubox.pro/share/bWpE42)
 		- 3-就当一个普通的[[双链]]笔记软件来用 就行了，`[[]]`就是另一条笔记联系起来，可以当标签来用
 		- 4-多用`/`命令，里面有很多快捷输入的方法，不用自己记语法
 		- 不建议新手去玩的功能
@@ -64,7 +64,7 @@ public:: true
 	- 不建议用Logseq去做的事
 	  collapsed:: true
 		- 个人使用Logseq的一些心得
-		- 不建议用Logseq做PDF阅读，推荐[[Zotero]]，因为Logseq不方便管理书架
+		- 不建议用Logseq做PDF阅读，推荐[[MyLogseq/pages/Zotero]]，因为Logseq不方便管理书架
 		- 不建议用Logseg做任务管理，推荐[[滴答清单]]，因为滴答清单收集任务和日程提醒更方便
 		- 不建议用Logseq做文章分享，推荐[[mweb]] 或 [[MyHulu/archive/MyLogseq/pages/Notion]]，因为大纲很适合自己整理思路，保持简洁，但不是这种特殊的MarkDown形式不是特别便于分享，并且它也没有直接发布到各种自媒体平台的插件
 			- 当然，如果你想以双链笔记的形式分享，那Logseq是不二之选
@@ -226,10 +226,10 @@ public:: true
 			- 闪卡，低频，暂时没用
 		- 使用杂谈
 			- collapsed:: true
-			- [[Logseq-从碎片化到体系化]]
-			- [[Logseq和Obsidian的配合与对比]]
+			- [[MyObsidianNote/Inbox/Logseq-从碎片化到体系化]]
+			- [[MyObsidianNote/Inbox/Logseq和Obsidian的配合与对比]]
 			- 用右侧的目录来代替左侧的收藏页面，因为目录可以展开、编辑、拖动，而收藏只能点击
-			- 把Logseq文件夹用[[MyObsidianNote/History/01-Inbox/syncthing]]和[[Git]]管理起来，前者解决垃圾箱和多设备同步，后者解决版本管理
+			- 把Logseq文件夹用[[MyObsidianNote/Archive/01-Inbox/syncthing]]和[[Git]]管理起来，前者解决垃圾箱和多设备同步，后者解决版本管理
 			- 感觉Logseq真的非常方便研究性学习，在研究一个东西时，过程中遇到的一切问题，搜集到的一切资料，自己的一切想法，都可以很方便的记录在这里
 		- 特色亮点 #good
 			- collapsed:: true
@@ -392,7 +392,7 @@ public:: true
 					- CLOCK: [2021-12-02 Thu 20:30:47]--[2021-12-02 Thu 20:30:49] =>  00:00:02
 					- CLOCK: [2021-12-02 Thu 20:31:00]--[2021-12-02 Thu 20:31:40] =>  00:00:40
 					- :END:
-		- logseq的大纲配合obsidian的 [[MyObsidianNote/History/01-Inbox/MarkDown]] ，简直就是完美配合
+		- logseq的大纲配合obsidian的 [[MyObsidianNote/Archive/01-Inbox/MarkDown]] ，简直就是完美配合
 		- -
 	- logseq-插件
 	  collapsed:: true
@@ -620,10 +620,10 @@ public:: true
 		- 真正需要转换成永久笔记的，就建双链，再来剪切吧
 	- 使用杂谈
 	  collapsed:: true
-		- [[Logseq-从碎片化到体系化]]
-		- [[Logseq和Obsidian的配合与对比]]
+		- [[MyObsidianNote/Inbox/Logseq-从碎片化到体系化]]
+		- [[MyObsidianNote/Inbox/Logseq和Obsidian的配合与对比]]
 		- 用右侧的目录来代替左侧的收藏页面，因为目录可以展开、编辑、拖动，而收藏只能点击
-		- 把Logseq文件夹用[[MyObsidianNote/History/01-Inbox/syncthing]]和[[Git]]管理起来，前者解决垃圾箱和多设备同步，后者解决版本管理
+		- 把Logseq文件夹用[[MyObsidianNote/Archive/01-Inbox/syncthing]]和[[Git]]管理起来，前者解决垃圾箱和多设备同步，后者解决版本管理
 		- 感觉Logseq真的非常方便研究性学习，在研究一个东西时，过程中遇到的一切问题，搜集到的一切资料，自己的一切想法，都可以很方便的记录在这里
 	- 迁移WorkFlowy到Logseq的流程
 	  collapsed:: true
@@ -799,7 +799,7 @@ public:: true
 				- CLOCK: [2021-12-02 Thu 20:30:47]--[2021-12-02 Thu 20:30:49] =>  00:00:02
 				- CLOCK: [2021-12-02 Thu 20:31:00]--[2021-12-02 Thu 20:31:40] =>  00:00:40
 				- :END:
-	- logseq的大纲配合obsidian的 [[MyObsidianNote/History/01-Inbox/MarkDown]] ，简直就是完美配合
+	- logseq的大纲配合obsidian的 [[MyObsidianNote/Archive/01-Inbox/MarkDown]] ，简直就是完美配合
 	- [[双链笔记]]
 	  collapsed:: true
 		- 特色亮点

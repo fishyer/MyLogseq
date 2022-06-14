@@ -3,7 +3,7 @@ alias:: 目录
 - 🤝 [这是一个共建共享的工具和思维模型知识库](https://logseq.fishyer.com)
 - 个人微信：fishyer2850
 - [:a {href "#/all-journals"} "更新日志"]
-- [[TODO]]
+- [[MyLogseq/pages/TODO]]
 - Star
   collapsed:: true
 	- 🍇 精选集锦
@@ -32,8 +32,8 @@ alias:: 目录
 		- [[读书笔记-如何成为学习高手]]
 		- [[MyHulu/archive/MyLogseq/pages/Logseq]]
 		- [[Git]]
-		- [[MyObsidianNote/History/01-Inbox/Obsidian]]
-		- [[MyObsidianNote/History/01-Inbox/Python]]
+		- [[MyObsidianNote/Archive/01-Inbox/Obsidian]]
+		- [[MyObsidianNote/Archive/01-Inbox/Python]]
 		- [[电子书管理工作流]]
 		-
 - AboutMe
