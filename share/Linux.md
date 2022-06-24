@@ -1,4 +1,4 @@
--
+- 大纲
 	- [[VMware]]
 	- [[宝塔面板]]
 	- [[VPS]]
@@ -15,3 +15,13 @@
 - 笔记
 	-
 - 其它
+
+- Linux
+- [[shell]]
+-
+- [[crontab]]
+- 常用shell命令
+	- awk
+	- sed
+	- grep
+-

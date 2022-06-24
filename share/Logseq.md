@@ -860,3 +860,19 @@ public:: true
 		- [logseq使用经验分享](https://xutuan.vercel.app/#/page/logseq%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB)
 - {{embed [[欢迎加入]]}}
 -
+
+- 为什么本地的config.edu在Github Action中好像没有生效
+- 样式
+	- 外链
+		- #045591
+	- 内链
+		- 红白黑主题
+- [Logseq自助修改CSS指导手册](https://wsin.vercel.app/#/page/logseq%E8%87%AA%E5%8A%A9%E4%BF%AE%E6%94%B9css%E6%8C%87%E5%AF%BC%E6%89%8B%E5%86%8C)
+- [[Logseq收集箱]]
+-
+- 从葫芦笔记导入到Logseq的速记流程
+  id:: 62a9ee81-30f5-479a-bc1c-e8f1444925e1
+	- [芦笋链接](https://lusun.com/v/zU2UmF8nvd3)
+	- [HuluUtil.py](https://gist.github.com/fishyer/f04eed03f35d6a2264cb6d4fb88b674e)
+	- [FileUtil.py](https://gist.github.com/fishyer/25dce66246740fa6b316717ea8918353)
+	- [TimeUtil.py](https://gist.github.com/fishyer/32f42bc3b9f2c80616929f7e78f64062)

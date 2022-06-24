@@ -31,7 +31,7 @@ alias:: 目录
 		- [[如何自动发布obsidian库或logseq库为网站]]
 		- [[读书笔记-如何成为学习高手]]
 		- [[MyHulu/archive/MyLogseq/pages/Logseq]]
-		- [[Git]]
+		- [[MyLogseq/share/Git]]
 		- [[MyObsidianNote/Archive/01-Inbox/Obsidian]]
 		- [[MyObsidianNote/Archive/01-Inbox/Python]]
 		- [[电子书管理工作流]]

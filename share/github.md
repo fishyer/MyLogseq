@@ -15,3 +15,25 @@
 		- In Workflow permissions, select Read and write permissions
 		- ![](https://image.fishyer.com/202205082326837.png)
 - 收集资料
+
+- 星标
+  collapsed:: true
+	-
+- 集锦
+  collapsed:: true
+	- Analysis-源码解析系列
+	- Practice-项目实战系列
+	- Refactor-设计重构系列
+- github pages地址
+  collapsed:: true
+	- git@github.com:fishyer/fishyer.github.io.git\
+- Github授权登录，明明已经新建用户成功了，但是无法跳转回去，一直停留在授权之后的页面
+  collapsed:: true
+	- You are being redirected to the authorized application.
+	- If your browser does not redirect you back, please click here to continue.
+	- http://localhost:3000/api/oauth/redirect?code=261a412d777835f2a720
+	- 可能是回调地址不正确。
+-
+-
+-
+-

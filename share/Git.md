@@ -81,3 +81,51 @@
 		-
 -
 -
+- 生成本机的SSH
+	- ssh-keygen -t rsa -C "your_email@example.com"
+- git checkout master 报错 error: invalid path ‘文件路径’
+	- git config core.protectNTFS false
+	- 查了下官方手册，官方原话： If set to true, do not allow checkout of paths that would cause problems with the NTFS filesystem
+	- 大概意思是说NTFS有个路径保护机制，防止文件系统出错。
+		- [git checkout master 报错 error: invalid path ‘文件路径‘_城南199的博客-CSDN博客](https://blog.csdn.net/qq_38209921/article/details/115716421)
+- 更新git忽略文件
+	- git rm -r --cached .
+	- git add .
+	- git commit -m "update .gitignore"
+- 常见问题
+  collapsed:: true
+	- 提交commit以后自动push
+		- 添加
+			- .git/hooks/post-commit
+			  "#!/bin/sh
+			  
+			  git push origin main"
+			-
+	-
+- Git Hooks 
+  collapsed:: true
+	-
+- Github-Action
+  collapsed:: true
+	- [Actions](https://github.com/fishyer/MyLogseq/actions)
+	- 部署流程
+		-
+	- Github Action数量限制
+		- [Billing](https://github.com/settings/billing)
+		- [管理 GitHub Actions 的支出限额 - GitHub Docs](https://docs.github.com/cn/billing/managing-billing-for-github-actions/managing-your-spending-limit-for-github-actions)
+		- 每个月免费2000分钟的时长,每天平均66分钟
+		- 每次部署大概需要3分钟，每天平均22次
+		- 最好设置auto commit的周期为半个小时一次
+			- 先测试10分钟一次试试
+	- 常见问题
+		- 1-Error: The deploy step encountered an error: The process '/usr/bin/git' failed with exit code 128
+			- Go to repo settings
+			- Select Actions -> General
+			- In Workflow permissions, select Read and write permissions
+			- ![](https://image.fishyer.com/202205082326837.png)
+- git全局配置
+	- git config --global http.proxy http[s]://userName:password@proxyaddress:port
+	- git config --global http.proxy http[s]://userName:password@proxyaddress:port
+	- git config --global http.proxy http[s]://fishyer:fishyer182047@127.0.0.1:10809
+-
+-

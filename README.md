@@ -1,5 +1,4 @@
-public:: true
-
+- this is MyLogseq
 - 这是一个共建共享的工具和思维模型知识库，每日自动更新-[:a {href "#/all-journals"} "更新日志"]，精选内容查看-[[目录]]
 	- 知识库由微信群+Logseq+Notion组成，通过微信群摄入信息，Logseq整理信息，Notion输出信息
 	- 1-微信这种IM形式是最方便的信息交流和输入方式，入群查看 [[欢迎加入]]

@@ -4,3 +4,8 @@
 - 3.  使用site:网址,进行指定站点搜索
 - 4.  使用filetype:文件类型,进行指定文件类型搜索，下载资料很有用
 - 以上仅为简单介绍,更多请查看：[想要更高效地找到信息，你需要掌握这些搜索技巧 | 庭说](https://tingtalk.me/search-tips/)
+
+- site 站点
+- link 反向链接
+- inurl
+- intitle
