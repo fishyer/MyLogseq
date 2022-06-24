@@ -1,0 +1,8 @@
+- [VPS主机性能和速度测试方法，各种测试工具 - Totoro](https://totoro.site/index.php/archives/64/)
+- 在线测试工具。使用在线测试工具，可以方便得到服务器的响应时间，这一招对于国外的VPS特别有效果。以下是搜集整理的实用在线网站速度测试工具网站：
+- http://ping.chinaz.com/
+- http://www.ipip.net/ping.php
+- https://www.17ce.com/
+- http://www.webkaka.com/
+- http://ce.cloud.360.cn/
+- 这几个在线测速工具各有各的优缺点，推荐使用ipip.net测试服务器IP和路由追踪，用17ce.com测试网页加载速度，用ping.chinaz.com用国内不同地方的Ping值。
