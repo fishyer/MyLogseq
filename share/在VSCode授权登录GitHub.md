@@ -1,0 +1,4 @@
+- 1-主动在设置里面配置，这个是同步VSCode的一些插件的，方便我们在不同的电脑上的插件和一些设置都保持一致
+	- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202206120817233.png){:height 192, :width 299}
+- 2-在提交代码时，如果没有授权登录的话，会自动提示授权Github登录，点击即可
+	- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202206120829356.png){:height 195, :width 304}

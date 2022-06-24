@@ -1,0 +1,20 @@
+- git-最流行的版本管理工具
+	- 官网：[Git - Downloads](https://git-scm.com/downloads)
+- 安装git
+	- https://git-scm.com/download
+	- git --version
+- github-最流行的版本托管仓库，代码界的百度网盘
+	- 官网：[GitHub](https://github.com/)
+- 配置环境变量
+	- `C:\Program Files\Git\bin`
+- 注册github
+	- https://github.com/
+- 生成本机的SSH密钥
+	- ssh-keygen -t ed25519 -C "fishyer@foxmail.com"
+- 在github添加你的公钥
+	- https://github.com/settings/keys
+- 参考资料
+  id:: 62a4875b-54d4-4745-b153-50506dff3758
+	- [[git的3个重要的全局配置]]
+	- [[git提交文件的3大步骤]]
+-

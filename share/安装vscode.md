@@ -1,0 +1,11 @@
+- 最方便的轻量编辑器，最丰富的插件生态
+- 官网
+	- [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
+- 安装Python插件和Nodejs插件
+	- Python extension for Visual Studio Code
+	- Node.js Extension Pack
+- vscode配置python的conda(比pip更强大的包管理工具)和解释器
+	- 在设置中搜索 conda path
+	- `C:\ProgramData\Anaconda3\_conda.exe`
+	- `C:\ProgramData\Anaconda3\python.exe`
+	- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202206111954667.png)

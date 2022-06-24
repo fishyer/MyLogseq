@@ -1,0 +1,110 @@
+- Relate
+	- #工具 #效能 #脚本 #软件
+- Summary
+  collapsed:: true
+	-
+	-
+	-
+- 01-成品文章
+  collapsed:: true
+	-
+	-
+	-
+- 02-半成品卡片
+	- [20201222 - 如何拯救开机键坏了的ipad？ - 简书](https://www.jianshu.com/p/638f09031e42)
+	  collapsed:: true
+		- 1、将USB数据线插到iPad上，此时先不要将另一头插到电脑上。
+		- 2、长按Home键不要动。
+		- 3、将数据线的另一头插到电脑上 → 开机
+		- https://diigo.com/0o7idh
+	- [如何管理 macOS 的开机启动项？ - 知乎](https://zhuanlan.zhihu.com/p/165344262)
+	  collapsed:: true
+		- 「系统偏好设置-用户与群组」中选择当前用户的「登录项」，可以添加登录启动的软件，或者删除某些软件的登录启动。
+		- " https://diigo.com/0o7iem
+	- [免费的Mac数据恢复软件。恢复丢失的数据。Disk Drill。](https://www.cleverfiles.com/cn/)
+	  collapsed:: true
+		- 数据恢复软件，并且还内置了磁盘清理、查找重复文件、系统备份
+	- MacOS如何隐藏文件夹
+	  collapsed:: true
+		- 修改文件隐藏属性
+			- chflags hidden 文件路径
+			- chflags nohidden 文件路径
+		- 显示隐藏的文件夹
+			- Shift+command+.
+	- Mac截图快捷键
+	  collapsed:: true
+		- 截取全屏：Cmd+Shift+3
+		- 截取区域：Cmd+Shift+4gj
+	- Mac定时启动Python脚本
+		- 查看python路径
+			- which python
+		- 使用crontab
+			-
+- 03-碎片笔记
+  collapsed:: true
+	-
+	-
+	-
+- 04-收集资料
+	- 集锦
+		-
+		-
+		-
+	- 文章
+		-
+		-
+		-
+	- 其它
+		- [Mac系统自带批量重命名功能，忍不住夸一下 | MacFlow](https://macflow.net/p/781.html)
+		- [众多Mac Gif屏幕录制软件中，我为何独爱「LICEcap」这一款 | MacFlow](https://macflow.net/p/285.html)
+		- [Photoshop 更新，原生支持 Apple Silicon，提速50% | MacFlow](https://macflow.net/p/1978.html)
+		- [「Optimage」多格式 Mac 图片压缩工具，还支持 PDF 压缩 | MacFlow](https://macflow.net/p/1149.html)
+		- [「 Zoommy」13 万张高清图库，统统免费商用，还不入手？ | MacFlow](https://macflow.net/p/1673.html)
+		- [「专业截图翻译」支持表格识别的 macOS OCR 截图识字应用 | MacFlow](https://macflow.net/p/1954.html)
+		- [「Magnet」简洁且快捷的Mac窗口管理、分屏工具 | MacFlow](https://macflow.net/p/109.html)
+		- [「Manico」这才是你需要的Mac快速启动器，一个快捷键便可打开、切换应用 | MacFlow](https://macflow.net/p/380.html)
+		- [「uTools」你的 Mac 生产力工具集，这是我最常用的几款插件 | MacFlow](https://macflow.net/p/1575.html)
+		- [「CheatSheet」要想Mac玩儿的溜，先把这款快捷键软件用起来 | MacFlow](https://macflow.net/p/39.html)
+		- [「腾讯Kantu」没有产品经理的Mac看图软件，我们和幕后团队聊了聊 | MacFlow](https://macflow.net/p/760.html)
+		- [「RSSHub」有了它，RSS软件又可以用起来了 | MacFlow](https://macflow.net/p/617.html)
+		- [「Pendo」 写任何想法和计划的清奇Mac笔记软件 | MacFlow](https://macflow.net/p/819.html)
+		- [「Spendy」macOS 记账应用，简单一点其实更好 | MacFlow](https://macflow.net/p/1947.html)
+		- [「Kaleidoscope」这款 Mac 软件能帮你找出相似文件的所有不同 | MacFlow](https://macflow.net/p/912.html)
+		- [「WaitingList」让期待一点点到来，Mac上的倒数日 | MacFlow](https://macflow.net/p/591.html)
+		- [「Reeder 4」仍然值得使用的 Mac RSS 阅读器 | MacFlow](https://macflow.net/p/1037.html)
+		- [「Paste 2」Mac剪切板记录增强软件，不知不觉已经用了2年 | MacFlow](https://macflow.net/p/232.html)
+		- [「Things」这款Mac任务软件令你时刻保持高效 | MacFlow](https://macflow.net/p/534.html)
+		- [「Clipy」这款Mac剪贴板工具，你肯定会喜欢 | MacFlow](https://macflow.net/p/567.html)
+		- [「Recents」这款Mac快速启动器，能集合显示你最近打开过的文件 | MacFlow](https://macflow.net/p/273.html)
+		- [「Pixelmator Pro」一周的使用感受，相比经典版Pixelmator有哪些改进？ | MacFlow](https://macflow.net/p/480.html)
+		- [「百度脑图」出 Mac 版了，如果你不介意只是本地版的话 | MacFlow](https://macflow.net/p/858.html)
+		- [「QSpace」Mac 多视图文件管理器，让效率起飞 | MacFlow](https://macflow.net/p/1104.html)
+		- [「Haste」你可能需要这样一款更轻的 Mac 网页搜索工具 | MacFlow](https://macflow.net/p/661.html)
+		- [「图格Pro」macOS 拼图切图全能选手，九宫格、手机套壳都能快速出图 | MacFlow](https://macflow.net/p/1927.html)
+		- [「TouchRetouch」不会PS又何妨，试试这款Mac擦图神器 | MacFlow](https://macflow.net/p/690.html)
+-
+-
+-
+
+- Mac
+- 无格式粘贴，使用与粘贴vscode代码块到WorkFlowy的备注里面
+	- Cmd+Option+Shift+V
+- 通过命令查看文件或者字符串的MD5、SHA256
+	- 查看文件MD5：
+		- md5[空格][拖曳要检测的文件到此处]
+	- 查看字符串MD5：
+		- md5[空格]-s[空格][要转换的文字]
+	- 查看文件SHA1:
+		- openssl dgst -sha1[空格][拖曳要检测的文件到此处]
+	- 查看文件SHA256：
+		- openssl dgst -sha256[空格][拖曳要检测的文件到此处]
+	- " https://diigo.com/0ohi0d
+- iPad电源键坏了，怎么开机
+	- 可以配合Mac开机
+	- 1.将USB数据线的一头，插入到iPad数据线接口中
+	- 2.此时注意，数据线另外一头别急着插入电脑，我们先长按住iPad手机屏幕下方的“HOME键”不放，然后再将USB数据线的另外一头插入开机状态下的电脑，此时iPhone就会自动开机
+-
+-
+-
+-
+-

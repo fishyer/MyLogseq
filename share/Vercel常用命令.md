@@ -1,0 +1,6 @@
+- vercel -h
+- vercel init
+	- 可以提供很多种模板，不复杂的话，也可以自己写
+- vercel dev --debug  # 本地开发测试
+- vercel          # 部署到云服务‘
+- vercel -prod    # 部署到云服务生产环境

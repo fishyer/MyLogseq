@@ -1,0 +1,13 @@
+- [[Vercel常用命令]]
+- 添加index.html，部署在云端
+  collapsed:: true
+	- 本机部署
+		- vercel dev --debug
+	- 云端部署
+		- vercel
+	- 云端生产环境部署
+		- vercel -prodvercel
+		- https://vercel-demo-zeta-kohl.vercel.app/
+-
+-
+-
