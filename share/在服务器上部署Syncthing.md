@@ -1,0 +1,52 @@
+- 下载syncthing，可以暂时不用管版本，等安装好打开之后会自动检查更新，1.19.1 是截至 20220401 的最新稳定版本
+	- wget https://github.com/syncthing/syncthing/releases/download/v1.19.1/syncthing-linux-amd64-v1.2.0.tar.gz
+- 解压下载下来的压缩包
+	- tar xzvf syncthing-linux-amd64-v1.19.1.tar.gz
+- 进入解压出来的文件夹
+	- cd syncthing-linux-amd64-v1.19.1
+- 将syncthing二进制程序复制到/usr/local/bin目录，然后就可以通过“syncthing”命令运行syncthing了
+	- cp syncthing /usr/local/bin
+- 将syncthing的其他文件删除
+	- rm -rf syncthing*
+- Syncthing 默认监听以下几个端口
+	- 22000 (TCP) --节点访问端口
+	- 8384 (TCP) --Web控制端口
+	- 21027 (UDP)
+	- 44647 (UDP)
+	- 37269 (UDP)
+- 先启动一次，生成config文件，再Ctrl+Z停止，去修改了config文件后，再次启动
+	- 修改config配置，允许外网访问
+		- sed -i 's/127.0.0.1/0.0.0.0/g' '/root/.config/syncthing/config.xml'
+- /Users/yutianran/Documents/MySything
+- 测试Syncthing是否可以访问
+	- http://104.128.88.110:8384/
+- 如果无法访问，可以重启syncthing
+	- 杀死指定进程
+		- ps -aux | grep syncthing
+		- kill -9 87151
+- 后台运行命令
+	- [linux后台执行命令：&和nohup_liuyanfeier的博客-CSDN博客_linux 后台执行](https://blog.csdn.net/liuyanfeier/article/details/62422742)
+- 建议将服务器端的面板设置个管理密码，依次定位到操作-设置-图形界面修改
+- 服务器的ID
+	- WG3EXD6-WKKANSJ-DACB633-CLPSVXI-WFLIY3J-ROFK3ZY-PINLWFE-22C27Q6
+- 默认会提示的2个问题
+	- 当前配置允许在不使用密码的情况下远程访问 Syncthing 管理界面。 这会让骇客能够轻而易举地访问及修改您的文件。 请在设置对话框中设置 GUI 验证用户及其密码。
+		- 在网页管理页面，设置一下即可
+	- Syncthing should not run as a privileged or system user. Please consider using a normal user account.
+		- 同步不应作为特权用户或系统用户运行。请考虑使用普通用户帐户。
+		- 💥 需要建立一个非root的linux账号，不过这样就不方便我代替ftp来用，所以可以不考虑
+- 参考资料
+	- [开源同步软件 Syncthing 图文教程 - 墨天轮](https://www.modb.pro/db/133662)
+	- [使用 Syncthing 搭建个人同步服务器 | 牧羊人](https://www.shephe.com/2019/07/use-syncthing-to-synchronize-your-own-files/)
+		- "
+		- 所以我很多时候在家里也会处理一些文档类工作，比方晚上和周末。以前是怎么干的呢？1）下班的时候把工作电脑文件通过微信、QQ 发到云上；2）拷到 U 盘里。然后做完之后再同步回去，很不方便。
+		- 它的“忽略模式”允许用户排除主文件夹下不想被同步的文件夹或内容，能非常灵活的管理和设置，对于我这种安良付费的 ECS，如果随便把每个文件都上传，一则费时间，二则费钱。
+		- 如果你像我一样，有自己的云服务器，建议关闭设置里边的“全球发现”和“NAT 遍历”，这样它就不会 P2P 传输了~
+		- 以上完成了 Syncthing 的安装和使用，这样一般会占用你系统 50MB 左右的内存，可以说相当轻量级了
+		- Syncthing 本身是支持 Android 的，但是我并不希望文件实时同步到手机，很耗电对不对？不过毕竟有需要的时候，怎么办呢？安装个 Kodexploer 在手机上能对单独文件或目录浏览、下载、分享就行啦——建议你：保持 Syncthing 和 Kodexploer 的文件目录一致比较省事儿
+		- Kodexplorer 是个相当强大的文件管理工具，可以文件外链共享、预览、编辑等
+		- 了解到斐讯 N1 这么个强大的玩意儿，于是……已经买了 N1 盒子准备折腾
+		- 在 N1 上刷 Debian，安装 OMV（OpenMediaVault）作为小型家用 NAS 使用
+		- 生命的乐趣在于折腾~
+		- 可以直接同步到你手头的手机，不过不建议这么干，太耗电了…
+		- " https://diigo.com/0n2i3a
