@@ -55,6 +55,9 @@
 		- 1. [Github Action你值得了解的~ - 掘金](https://juejin.cn/post/6844904048794042382)
 		- 2. [4个提高效率的GitHub Actions技巧-InfoQ](https://www.infoq.cn/article/ebfoucksujlm5aek8hoz)
 		- 3. [GitHub Actions 入门教程 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
+	- git设置代理
+		- git config --global http.proxy http[s]://fishyer:fishyer182047@127.0.0.1:8888
+	-
 - 03-碎片笔记
   collapsed:: true
 	- [[MyObsidianNote/Archive/01-Inbox/git备忘]]

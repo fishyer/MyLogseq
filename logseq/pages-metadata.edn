@@ -1,13 +1,4 @@
-[{:block/name "01-inbox",
-  :block/created-at 1652044818736,
-  :block/updated-at 1652044818736}
- {:block/name "01-inbox/logseq",
-  :block/created-at 1652044818735,
-  :block/updated-at 1652044818735}
- {:block/name "04-outline",
-  :block/created-at 1652044818741,
-  :block/updated-at 1652044818741}
- {:block/name "04-outline/chrome",
+[{:block/name "04-outline",
   :block/created-at 1652044818741,
   :block/updated-at 1652044818741}
  {:block/name "04-outline/eagle",
@@ -16,30 +7,12 @@
  {:block/name "04-outline/gtd",
   :block/created-at 1652176204749,
   :block/updated-at 1652176204749}
- {:block/name "04-outline/vscode",
-  :block/created-at 1652044818737,
-  :block/updated-at 1652044818737}
- {:block/name "2022-06-08",
-  :block/created-at 1654675604195,
-  :block/updated-at 1654680188902}
- {:block/name "2022-06-09",
-  :block/created-at 1654756398238,
-  :block/updated-at 1654756398238}
- {:block/name "2022-06-10",
-  :block/created-at 1654791141269,
-  :block/updated-at 1654791141269}
- {:block/name "2022-06-11",
-  :block/created-at 1654935037440,
-  :block/updated-at 1654935037440}
- {:block/name "2022-06-12",
-  :block/created-at 1654991123454,
-  :block/updated-at 1654991123454}
- {:block/name "2022-06-13",
-  :block/created-at 1655108555650,
-  :block/updated-at 1655108555650}
- {:block/name "2022-06-14",
-  :block/created-at 1655136014040,
-  :block/updated-at 1655136014040}
+ {:block/name "2022-06-24",
+  :block/created-at 1656039423934,
+  :block/updated-at 1656039423934}
+ {:block/name "2022年06月24日",
+  :block/created-at 1656039684152,
+  :block/updated-at 1656039684152}
  {:block/name "233v2.com_ss_104.128.88.110",
   :block/created-at 1654937254963,
   :block/updated-at 1654937254963}
@@ -61,6 +34,9 @@
  {:block/name "bad",
   :block/created-at 1652017706908,
   :block/updated-at 1652017706908}
+ {:block/name "b站",
+  :block/created-at 1656039420480,
+  :block/updated-at 1656039420480}
  {:block/name "c",
   :block/created-at 1652017781686,
   :block/updated-at 1652017781686}
@@ -74,11 +50,37 @@
   :block/created-at 1652094776861,
   :block/updated-at 1652094776861}
  {:block/name "contents",
-  :block/created-at 1652030050997,
-  :block/updated-at 1654767332259}
+  :block/created-at 1656039589788,
+  :block/updated-at 1656039589788}
+ {:block/name "csdn",
+  :block/created-at 1656039420480,
+  :block/updated-at 1656039420480}
  {:block/name "cubox",
   :block/created-at 1652018118352,
   :block/updated-at 1652018118352}
+ {:block/name "d:",
+  :block/created-at 1656039418910,
+  :block/updated-at 1656039418910}
+ {:block/name "d:/dropbox",
+  :block/created-at 1656039418911,
+  :block/updated-at 1656039418911}
+ {:block/name "d:/dropbox/myobsidian",
+  :block/created-at 1656039418911,
+  :block/updated-at 1656039418911}
+ {:block/name "d:/dropbox/myobsidian/myattachment",
+  :block/created-at 1656039418912,
+  :block/updated-at 1656039418912}
+ {:block/name "d:/dropbox/myobsidian/myattachment/myzotorefile",
+  :block/created-at 1656039418912,
+  :block/updated-at 1656039418912}
+ {:block/name
+  "d:/dropbox/myobsidian/myattachment/myzotorefile/python%e7%bc%96%e7%a8%8b%e5%bf%ab%e9%80%9f%e4%b8%8a%e6%89%8b%e2%80%94%e8%ae%a9%e7%b9%81%e7%90%90%e5%b7%a5%e4%bd%9c%e8%87%aa%e5%8a%a8%e5%8c%96.pdf",
+  :block/created-at 1656039418910,
+  :block/updated-at 1656039418910}
+ {:block/name
+  "d:/dropbox/myobsidian/myattachment/pythoncookbook-%e7%ac%ac%e4%b8%89%e7%89%88%e4%b8%ad%e6%96%87v3.0.0.pdf",
+  :block/created-at 1656039418907,
+  :block/updated-at 1656039418907}
  {:block/name "dailynote",
   :block/created-at 1652030054327,
   :block/updated-at 1652030054327}
@@ -588,42 +590,6 @@
   :block/created-at 1655113054373,
   :block/updated-at 1655113054373}
  {:block/name
-  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第1关网页追踪者-信息的请求与收集.html",
-  :block/created-at 1655114055548,
-  :block/updated-at 1655114055548}
- {:block/name
-  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第2关获取网页.html",
-  :block/created-at 1655114055552,
-  :block/updated-at 1655114055552}
- {:block/name
-  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第3关认识网页.html",
-  :block/created-at 1655114055550,
-  :block/updated-at 1655114055550}
- {:block/name
-  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第4关解析网页.html",
-  :block/created-at 1655114055557,
-  :block/updated-at 1655114055557}
- {:block/name
-  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第5关存储数据.html",
-  :block/created-at 1655114055553,
-  :block/updated-at 1655114055553}
- {:block/name
-  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第6关爬个电影-带信息请求.html",
-  :block/created-at 1655114055556,
-  :block/updated-at 1655114055556}
- {:block/name
-  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第7关收集评论-登录凭证.html",
-  :block/created-at 1655114055549,
-  :block/updated-at 1655114055549}
- {:block/name
-  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第8关发表评论-提交数据.html",
-  :block/created-at 1655114055555,
-  :block/updated-at 1655114055555}
- {:block/name
-  "e:\\baidunetdiskdownload\\python-风变-2021\\2-爬虫精进\\第9关爬虫练习场.html",
-  :block/created-at 1655114055551,
-  :block/updated-at 1655114055551}
- {:block/name
   "e:\\baidunetdiskdownload\\python-风变-2021\\3-自动化办公\\第1关高效办公导学课.html",
   :block/created-at 1655115483721,
   :block/updated-at 1655115483721}
@@ -656,10 +622,6 @@
   :block/created-at 1655115483729,
   :block/updated-at 1655115483729}
  {:block/name
-  "e:\\baidunetdiskdownload\\python-风变-2021\\4-数据分析\\第1关_科学诊断-数据分析与“医生”.html",
-  :block/created-at 1655115938923,
-  :block/updated-at 1655115938923}
- {:block/name
   "e:\\baidunetdiskdownload\\python-风变-2021\\4-数据分析\\第1关_科学诊断-数据分析与医生.html",
   :block/created-at 1655116077568,
   :block/updated-at 1655116077568}
@@ -670,9 +632,6 @@
  {:block/name "eagle",
   :block/created-at 1652157387201,
   :block/updated-at 1652157387201}
- {:block/name "faq",
-  :block/created-at 1654676821418,
-  :block/updated-at 1654676821418}
  {:block/name "favorites",
   :block/created-at 1652017781686,
   :block/updated-at 1652017781686}
@@ -685,24 +644,12 @@
  {:block/name "git",
   :block/created-at 1652030053385,
   :block/updated-at 1652253467114}
- {:block/name "git init 和 git init –bare 的区别",
-  :block/created-at 1652041122731,
-  :block/updated-at 1652041122731}
  {:block/name "gitbook",
   :block/created-at 1652030054689,
   :block/updated-at 1652030054689}
  {:block/name "github",
   :block/created-at 1652030054691,
   :block/updated-at 1652346929754}
- {:block/name "github收藏",
-  :block/created-at 1652041122733,
-  :block/updated-at 1652041122733}
- {:block/name "gitlab",
-  :block/created-at 1652041122735,
-  :block/updated-at 1652041122735}
- {:block/name "git备忘",
-  :block/created-at 1652041122731,
-  :block/updated-at 1652041122731}
  {:block/name "git提交文件的3大步骤",
   :block/created-at 1654991123598,
   :block/updated-at 1654991123598}
@@ -718,9 +665,6 @@
  {:block/name "google搜索技巧",
   :block/created-at 1652094777645,
   :block/updated-at 1652094777645}
- {:block/name "gtd",
-  :block/created-at 1652030053386,
-  :block/updated-at 1652030053386}
  {:block/name "hazel",
   :block/created-at 1652094778370,
   :block/updated-at 1652094778370}
@@ -740,6 +684,15 @@
  {:block/name "jsdelivr",
   :block/created-at 1652035878448,
   :block/updated-at 1652035878448}
+ {:block/name "jun 12th, 2022",
+  :block/created-at 1656039416270,
+  :block/updated-at 1656039416270}
+ {:block/name "jun 8th, 2022",
+  :block/created-at 1656039416308,
+  :block/updated-at 1656039416308}
+ {:block/name "kindle",
+  :block/created-at 1656039420474,
+  :block/updated-at 1656039420474}
  {:block/name "later",
   :block/created-at 1652030050996,
   :block/updated-at 1652030050996}
@@ -752,15 +705,9 @@
  {:block/name "logseq 接入评论系统",
   :block/created-at 1652344113218,
   :block/updated-at 1652344113218}
- {:block/name "logseq-从碎片化到体系化",
-  :block/created-at 1652035878490,
-  :block/updated-at 1652035878490}
  {:block/name "logseq入门简介",
   :block/created-at 1652044818772,
   :block/updated-at 1652044818772}
- {:block/name "logseq和obsidian的配合与对比",
-  :block/created-at 1652035878490,
-  :block/updated-at 1652035878490}
  {:block/name "mac",
   :block/created-at 1652159512496,
   :block/updated-at 1652163309983}
@@ -770,9 +717,9 @@
  {:block/name "mac应用的折腾之路",
   :block/created-at 1652018118366,
   :block/updated-at 1652018118366}
- {:block/name "markdown",
-  :block/created-at 1652035878514,
-  :block/updated-at 1652035878514}
+ {:block/name "menubar",
+  :block/created-at 1656039418532,
+  :block/updated-at 1656039418532}
  {:block/name "mweb",
   :block/created-at 1652035878440,
   :block/updated-at 1652035878440}
@@ -803,73 +750,124 @@
  {:block/name "myhulu/archive/mylogseq/pages/notion",
   :block/created-at 1654791142958,
   :block/updated-at 1654791142958}
- {:block/name "myhulu/archive/mylogseq/pages/todo",
-  :block/created-at 1654791142829,
-  :block/updated-at 1654791142829}
  {:block/name "myhulu/archive/mylogseq/pages/任务管理",
   :block/created-at 1654791144888,
   :block/updated-at 1654791144888}
+ {:block/name "mylognote",
+  :block/created-at 1656039417994,
+  :block/updated-at 1656039417994}
+ {:block/name "mylognote/pages",
+  :block/created-at 1656039420478,
+  :block/updated-at 1656039420478}
+ {:block/name "mylognote/pages/workflowy",
+  :block/created-at 1656039420477,
+  :block/updated-at 1656039420477}
+ {:block/name "mylognote/share",
+  :block/created-at 1656039417995,
+  :block/updated-at 1656039417995}
+ {:block/name "mylognote/share/git",
+  :block/created-at 1656039417993,
+  :block/updated-at 1656039417993}
+ {:block/name "mylognote/share/zotero",
+  :block/created-at 1656039417923,
+  :block/updated-at 1656039417923}
  {:block/name "myobsidiannote",
   :block/created-at 1654935037525,
   :block/updated-at 1654935037525}
- {:block/name "myobsidiannote/history",
-  :block/created-at 1654935037525,
-  :block/updated-at 1654935037525}
- {:block/name "myobsidiannote/history/01-inbox",
-  :block/created-at 1654935037526,
-  :block/updated-at 1654935037526}
+ {:block/name "myobsidiannote/archive",
+  :block/created-at 1656039416443,
+  :block/updated-at 1656039416443}
+ {:block/name "myobsidiannote/archive/01-inbox",
+  :block/created-at 1656039416444,
+  :block/updated-at 1656039416444}
  {:block/name
-  "myobsidiannote/history/01-inbox/git init 和 git init –bare 的区别",
-  :block/created-at 1654935038128,
-  :block/updated-at 1654935038128}
- {:block/name "myobsidiannote/history/01-inbox/github收藏",
-  :block/created-at 1654935038134,
-  :block/updated-at 1654935038134}
- {:block/name "myobsidiannote/history/01-inbox/git备忘",
-  :block/created-at 1654935038131,
-  :block/updated-at 1654935038131}
- {:block/name "myobsidiannote/history/01-inbox/logseq",
-  :block/created-at 1654935039926,
-  :block/updated-at 1654935039926}
- {:block/name "myobsidiannote/history/01-inbox/markdown",
-  :block/created-at 1654935038749,
-  :block/updated-at 1654935038749}
- {:block/name "myobsidiannote/history/01-inbox/obsidian",
-  :block/created-at 1654935037522,
-  :block/updated-at 1654935037522}
- {:block/name "myobsidiannote/history/01-inbox/okr",
-  :block/created-at 1654935037856,
-  :block/updated-at 1654935037856}
- {:block/name "myobsidiannote/history/01-inbox/omnifocus",
-  :block/created-at 1654935037847,
-  :block/updated-at 1654935037847}
- {:block/name "myobsidiannote/history/01-inbox/pkm",
-  :block/created-at 1654935037841,
-  :block/updated-at 1654935037841}
- {:block/name "myobsidiannote/history/01-inbox/python",
-  :block/created-at 1654935037524,
-  :block/updated-at 1654935037524}
- {:block/name "myobsidiannote/history/01-inbox/syncthing",
-  :block/created-at 1654935038726,
-  :block/updated-at 1654935038726}
- {:block/name "myobsidiannote/history/01-inbox/utools",
-  :block/created-at 1654935039942,
-  :block/updated-at 1654935039942}
- {:block/name "myobsidiannote/history/01-inbox/vscode",
-  :block/created-at 1654935038121,
-  :block/updated-at 1654935038121}
- {:block/name "myobsidiannote/history/01-inbox/workflowy",
-  :block/created-at 1654935037848,
-  :block/updated-at 1654935037848}
- {:block/name "myobsidiannote/history/04-outline",
-  :block/created-at 1654935039947,
-  :block/updated-at 1654935039947}
- {:block/name "myobsidiannote/history/04-outline/chrome",
-  :block/created-at 1654935039946,
-  :block/updated-at 1654935039946}
- {:block/name "myobsidiannote/history/04-outline/vscode",
-  :block/created-at 1654935039930,
-  :block/updated-at 1654935039930}
+  "myobsidiannote/archive/01-inbox/git init 和 git init –bare 的区别",
+  :block/created-at 1656039417245,
+  :block/updated-at 1656039417245}
+ {:block/name "myobsidiannote/archive/01-inbox/github收藏",
+  :block/created-at 1656039417254,
+  :block/updated-at 1656039417254}
+ {:block/name "myobsidiannote/archive/01-inbox/git备忘",
+  :block/created-at 1656039417249,
+  :block/updated-at 1656039417249}
+ {:block/name "myobsidiannote/archive/01-inbox/logseq",
+  :block/created-at 1656039421988,
+  :block/updated-at 1656039421988}
+ {:block/name "myobsidiannote/archive/01-inbox/markdown",
+  :block/created-at 1656039418018,
+  :block/updated-at 1656039418018}
+ {:block/name "myobsidiannote/archive/01-inbox/obsidian",
+  :block/created-at 1656039416438,
+  :block/updated-at 1656039416438}
+ {:block/name "myobsidiannote/archive/01-inbox/okr",
+  :block/created-at 1656039419510,
+  :block/updated-at 1656039419510}
+ {:block/name "myobsidiannote/archive/01-inbox/omnifocus",
+  :block/created-at 1656039419500,
+  :block/updated-at 1656039419500}
+ {:block/name "myobsidiannote/archive/01-inbox/pkm",
+  :block/created-at 1656039419494,
+  :block/updated-at 1656039419494}
+ {:block/name "myobsidiannote/archive/01-inbox/python",
+  :block/created-at 1656039416442,
+  :block/updated-at 1656039416442}
+ {:block/name "myobsidiannote/archive/01-inbox/syncthing",
+  :block/created-at 1656039417994,
+  :block/updated-at 1656039417994}
+ {:block/name "myobsidiannote/archive/01-inbox/utools",
+  :block/created-at 1656039421998,
+  :block/updated-at 1656039421998}
+ {:block/name "myobsidiannote/archive/01-inbox/vscode",
+  :block/created-at 1656039417235,
+  :block/updated-at 1656039417235}
+ {:block/name "myobsidiannote/archive/01-inbox/workflowy",
+  :block/created-at 1656039419502,
+  :block/updated-at 1656039419502}
+ {:block/name "myobsidiannote/archive/04-outline",
+  :block/created-at 1656039421948,
+  :block/updated-at 1656039421948}
+ {:block/name "myobsidiannote/archive/04-outline/chrome",
+  :block/created-at 1656039421946,
+  :block/updated-at 1656039421946}
+ {:block/name "myobsidiannote/archive/04-outline/vscode",
+  :block/created-at 1656039421938,
+  :block/updated-at 1656039421938}
+ {:block/name "myobsidiannote/inbox",
+  :block/created-at 1656039417234,
+  :block/updated-at 1656039417234}
+ {:block/name "myobsidiannote/inbox/flomo",
+  :block/created-at 1656039420481,
+  :block/updated-at 1656039420481}
+ {:block/name "myobsidiannote/inbox/gitlab",
+  :block/created-at 1656039417229,
+  :block/updated-at 1656039417229}
+ {:block/name "myobsidiannote/inbox/logseq",
+  :block/created-at 1656039421934,
+  :block/updated-at 1656039421934}
+ {:block/name "myobsidiannote/inbox/logseq-从碎片化到体系化",
+  :block/created-at 1656039417990,
+  :block/updated-at 1656039417990}
+ {:block/name "myobsidiannote/inbox/logseq和obsidian的配合与对比",
+  :block/created-at 1656039417992,
+  :block/updated-at 1656039417992}
+ {:block/name "myobsidiannote/inbox/obsidian",
+  :block/created-at 1656039420999,
+  :block/updated-at 1656039420999}
+ {:block/name "myobsidiannote/inbox/okr",
+  :block/created-at 1656039421007,
+  :block/updated-at 1656039421007}
+ {:block/name "myobsidiannote/inbox/omnifocus",
+  :block/created-at 1656039420996,
+  :block/updated-at 1656039420996}
+ {:block/name "myobsidiannote/inbox/pkm",
+  :block/created-at 1656039420990,
+  :block/updated-at 1656039420990}
+ {:block/name "myobsidiannote/inbox/sourcetree",
+  :block/created-at 1656039417233,
+  :block/updated-at 1656039417233}
+ {:block/name "myobsidiannote/inbox/utools",
+  :block/created-at 1656039421944,
+  :block/updated-at 1656039421944}
  {:block/name "nobelium",
   :block/created-at 1652344113274,
   :block/updated-at 1652348880415}
@@ -888,9 +886,6 @@
  {:block/name "okr",
   :block/created-at 1652030054326,
   :block/updated-at 1652030054326}
- {:block/name "omnifocus",
-  :block/created-at 1652030054322,
-  :block/updated-at 1652030054322}
  {:block/name "para",
   :block/created-at 1652030053373,
   :block/updated-at 1652030053373}
@@ -900,18 +895,15 @@
  {:block/name "pdca",
   :block/created-at 1652018118354,
   :block/updated-at 1652018118354}
- {:block/name "pkm",
-  :block/created-at 1652030054321,
-  :block/updated-at 1652030054321}
+ {:block/name "pdf书籍",
+  :block/created-at 1656039420477,
+  :block/updated-at 1656039420477}
  {:block/name "pmp",
   :block/created-at 1652018118353,
   :block/updated-at 1652018118353}
  {:block/name "public",
   :block/created-at 1652030054034,
   :block/updated-at 1652096815765}
- {:block/name "python",
-  :block/created-at 1654756399108,
-  :block/updated-at 1654756399108}
  {:block/name "python-风变",
   :block/created-at 1655114560186,
   :block/updated-at 1655115744845}
@@ -927,18 +919,27 @@
  {:block/name "python-风变-4-数据分析",
   :block/created-at 1655115726637,
   :block/updated-at 1655115761890}
+ {:block/name "python之歌",
+  :block/created-at 1656039418914,
+  :block/updated-at 1656039418914}
+ {:block/name "racknerd",
+  :block/created-at 1656039417494,
+  :block/updated-at 1656039417494}
  {:block/name "readme",
   :block/created-at 1652029780284,
   :block/updated-at 1654679271158}
+ {:block/name "roadmap",
+  :block/created-at 1656039418515,
+  :block/updated-at 1656039418515}
  {:block/name "rss的折腾之路",
   :block/created-at 1652018118367,
   :block/updated-at 1652018118367}
  {:block/name "screenshot_2021-12-02-03-48-15-85.jpg",
   :block/created-at 1652041122733,
   :block/updated-at 1652041122733}
- {:block/name "sourcetree",
-  :block/created-at 1652041122737,
-  :block/updated-at 1652041122737}
+ {:block/name "shell",
+  :block/created-at 1656039417495,
+  :block/updated-at 1656039417495}
  {:block/name "syncthing",
   :block/created-at 1652035878509,
   :block/updated-at 1652035878509}
@@ -948,15 +949,9 @@
  {:block/name "tortoisegit",
   :block/created-at 1652041122737,
   :block/updated-at 1652041122737}
- {:block/name "true` 属性来公开此页面",
-  :block/created-at 1654680181791,
-  :block/updated-at 1654680181791}
  {:block/name "typora",
   :block/created-at 1652035878508,
   :block/updated-at 1652035878508}
- {:block/name "utools",
-  :block/created-at 1652044818740,
-  :block/updated-at 1652044818740}
  {:block/name "v2ray",
   :block/created-at 1654937251293,
   :block/updated-at 1654945379297}
@@ -966,12 +961,21 @@
  {:block/name "vercel常用命令",
   :block/created-at 1654991123680,
   :block/updated-at 1654991123680}
+ {:block/name "vmware",
+  :block/created-at 1656039417492,
+  :block/updated-at 1656039417492}
+ {:block/name "vps",
+  :block/created-at 1656039417493,
+  :block/updated-at 1656039417493}
  {:block/name "vscode",
   :block/created-at 1652035878507,
   :block/updated-at 1652035878507}
  {:block/name "w1-环境部署",
   :block/created-at 1654361282066,
   :block/updated-at 1654954653505}
+ {:block/name "w2-python基本语法",
+  :block/created-at 1656039418918,
+  :block/updated-at 1656039418918}
  {:block/name "wait",
   :block/created-at 1652017781687,
   :block/updated-at 1652017781687}
@@ -1011,9 +1015,6 @@
  {:block/name "任务管理",
   :block/created-at 1652094778591,
   :block/updated-at 1652094778591}
- {:block/name "但是批量管理很麻烦",
-  :block/created-at 1654680181792,
-  :block/updated-at 1654680181792}
  {:block/name "何帆通识课系列书单",
   :block/created-at 1652048450807,
   :block/updated-at 1652048450807}
@@ -1035,6 +1036,9 @@
  {:block/name "借助github来自动部署vercel站点",
   :block/created-at 1654991123753,
   :block/updated-at 1654992150074}
+ {:block/name "做标注的一些建议",
+  :block/created-at 1656039420484,
+  :block/updated-at 1656039420484}
  {:block/name "像编辑大纲一样来群聊",
   :block/created-at 1652029780275,
   :block/updated-at 1652029780275}
@@ -1095,6 +1099,9 @@
  {:block/name "多元思维模型",
   :block/created-at 1652018118368,
   :block/updated-at 1652018118368}
+ {:block/name "多看阅读",
+  :block/created-at 1656039420475,
+  :block/updated-at 1656039420475}
  {:block/name "大纲",
   :block/created-at 1652030052966,
   :block/updated-at 1652030052966}
@@ -1143,6 +1150,12 @@
  {:block/name "安装vscode",
   :block/created-at 1654948922174,
   :block/updated-at 1654948922325}
+ {:block/name "宝塔面板",
+  :block/created-at 1656039417493,
+  :block/updated-at 1656039417493}
+ {:block/name "少数派",
+  :block/created-at 1656039420479,
+  :block/updated-at 1656039420479}
  {:block/name "工具",
   :block/created-at 1652159980728,
   :block/updated-at 1652159980728}
@@ -1152,15 +1165,18 @@
  {:block/name "建群目的 (conflict 2022-06-11-15-46-36)",
   :block/created-at 1655108555008,
   :block/updated-at 1655108555008}
- {:block/name "建议直接将所有可公开的md存放到一个库里面",
-  :block/created-at 1654680181792,
-  :block/updated-at 1654680181792}
+ {:block/name "开智书单108本",
+  :block/created-at 1656039420163,
+  :block/updated-at 1656039420163}
  {:block/name "强烈推荐的vscode-git插件",
   :block/created-at 1654996835994,
   :block/updated-at 1654996835994}
  {:block/name "录屏工具",
   :block/created-at 1652094778991,
   :block/updated-at 1652094778991}
+ {:block/name "得到",
+  :block/created-at 1656039420474,
+  :block/updated-at 1656039420474}
  {:block/name "微信",
   :block/created-at 1652018118349,
   :block/updated-at 1652018118349}
@@ -1176,15 +1192,18 @@
  {:block/name "思维模型知识库",
   :block/created-at 1652044818799,
   :block/updated-at 1652044818799}
- {:block/name "或放在一个单独的文件夹通过git忽略配置来隐藏私有文件夹(不提交到gihub就不会参与后续的编译了)",
-  :block/created-at 1654680181793,
-  :block/updated-at 1654680181793}
  {:block/name "拿铁阅读系列书单",
   :block/created-at 1652048450809,
   :block/updated-at 1652048450809}
  {:block/name "推荐",
   :block/created-at 1652035878480,
   :block/updated-at 1652035878480}
+ {:block/name "搜狗输入法",
+  :block/created-at 1656039420482,
+  :block/updated-at 1656039420482}
+ {:block/name "搬瓦工",
+  :block/created-at 1656039417494,
+  :block/updated-at 1656039417494}
  {:block/name "搬瓦工vps搭建v2ray代理科学上网翻墙教程（2022年更新）  搬瓦工",
   :block/created-at 1654937789835,
   :block/updated-at 1654937789835}
@@ -1263,6 +1282,9 @@
  {:block/name "白话法律42讲",
   :block/created-at 1653221767160,
   :block/updated-at 1653221767160}
+ {:block/name "百度网盘群",
+  :block/created-at 1656039418913,
+  :block/updated-at 1656039418913}
  {:block/name "百度网盘资源群",
   :block/created-at 1652030054341,
   :block/updated-at 1652030054341}
@@ -1275,6 +1297,9 @@
  {:block/name "看云",
   :block/created-at 1652018146788,
   :block/updated-at 1652018146788}
+ {:block/name "知乎",
+  :block/created-at 1656039420481,
+  :block/updated-at 1656039420481}
  {:block/name "知识库",
   :block/created-at 1652035878482,
   :block/updated-at 1652035878482}
@@ -1302,9 +1327,15 @@
  {:block/name "精选集锦",
   :block/created-at 1652094779460,
   :block/updated-at 1652094779460}
+ {:block/name "纸质阅读",
+  :block/created-at 1656039420476,
+  :block/updated-at 1656039420476}
  {:block/name "编程入门-学习群",
   :block/created-at 1654361282371,
   :block/updated-at 1654946869954}
+ {:block/name "编程入门-学习群-百度网盘",
+  :block/created-at 1656039418829,
+  :block/updated-at 1656039418829}
  {:block/name "编程入门-学习群-简介",
   :block/created-at 1654991123452,
   :block/updated-at 1654991123452}
@@ -1353,6 +1384,9 @@
  {:block/name "读书笔记-如何成为学习高手",
   :block/created-at 1652044818771,
   :block/updated-at 1652044818771}
+ {:block/name "豆瓣阅读",
+  :block/created-at 1656039420476,
+  :block/updated-at 1656039420476}
  {:block/name "软件",
   :block/created-at 1652159989476,
   :block/updated-at 1652159989476}

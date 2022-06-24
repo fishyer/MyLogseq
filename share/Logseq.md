@@ -64,7 +64,7 @@ public:: true
 	- 不建议用Logseq去做的事
 	  collapsed:: true
 		- 个人使用Logseq的一些心得
-		- 不建议用Logseq做PDF阅读，推荐[[MyLogseq/pages/Zotero]]，因为Logseq不方便管理书架
+		- 不建议用Logseq做PDF阅读，推荐[[MyLogNote/share/Zotero]]，因为Logseq不方便管理书架
 		- 不建议用Logseg做任务管理，推荐[[滴答清单]]，因为滴答清单收集任务和日程提醒更方便
 		- 不建议用Logseq做文章分享，推荐[[mweb]] 或 [[MyHulu/archive/MyLogseq/pages/Notion]]，因为大纲很适合自己整理思路，保持简洁，但不是这种特殊的MarkDown形式不是特别便于分享，并且它也没有直接发布到各种自媒体平台的插件
 			- 当然，如果你想以双链笔记的形式分享，那Logseq是不二之选
@@ -229,7 +229,7 @@ public:: true
 			- [[MyObsidianNote/Inbox/Logseq-从碎片化到体系化]]
 			- [[MyObsidianNote/Inbox/Logseq和Obsidian的配合与对比]]
 			- 用右侧的目录来代替左侧的收藏页面，因为目录可以展开、编辑、拖动，而收藏只能点击
-			- 把Logseq文件夹用[[MyObsidianNote/Archive/01-Inbox/syncthing]]和[[Git]]管理起来，前者解决垃圾箱和多设备同步，后者解决版本管理
+			- 把Logseq文件夹用[[MyObsidianNote/Archive/01-Inbox/syncthing]]和[[MyLogNote/share/Git]]管理起来，前者解决垃圾箱和多设备同步，后者解决版本管理
 			- 感觉Logseq真的非常方便研究性学习，在研究一个东西时，过程中遇到的一切问题，搜集到的一切资料，自己的一切想法，都可以很方便的记录在这里
 		- 特色亮点 #good
 			- collapsed:: true
@@ -623,7 +623,7 @@ public:: true
 		- [[MyObsidianNote/Inbox/Logseq-从碎片化到体系化]]
 		- [[MyObsidianNote/Inbox/Logseq和Obsidian的配合与对比]]
 		- 用右侧的目录来代替左侧的收藏页面，因为目录可以展开、编辑、拖动，而收藏只能点击
-		- 把Logseq文件夹用[[MyObsidianNote/Archive/01-Inbox/syncthing]]和[[Git]]管理起来，前者解决垃圾箱和多设备同步，后者解决版本管理
+		- 把Logseq文件夹用[[MyObsidianNote/Archive/01-Inbox/syncthing]]和[[MyLogNote/share/Git]]管理起来，前者解决垃圾箱和多设备同步，后者解决版本管理
 		- 感觉Logseq真的非常方便研究性学习，在研究一个东西时，过程中遇到的一切问题，搜集到的一切资料，自己的一切想法，都可以很方便的记录在这里
 	- 迁移WorkFlowy到Logseq的流程
 	  collapsed:: true

@@ -18,13 +18,17 @@
  ;; When creating the new journal page, the app will use your template if there is one.
  ;; You only need to input your template name here.
  :default-templates
- {:journals "MyDailyNote"}
+ {:journals ""}
 
  ;; Whether to enable hover on tooltip preview feature
  ;; Default is true, you can also toggle this via setting page
  :ui/enable-tooltip? true
 
  :feature/enable-block-timestamps? false
+
+ ;; Specify the date on which the week starts.
+ ;; Goes from 0 to 6 (Monday to Sunday), default to 6
+ :start-of-week 6
 
  ;; Specify a custom CSS import
  ;; This option take precedence over your local `logseq/custom.css` file
@@ -48,11 +52,11 @@
  ;; If `:sidebar` is not set, sidebar will be hidden
  ;; Example:
  ;; 1. Setup page "Changelog" as home page and "Contents" in sidebar
-;;  :default-home {:page "README", :sidebar "MenuBar"}
+ ;; :default-home {:page "Changelog", :sidebar "Contents"}
  ;; 2. Setup page "Jun 3rd, 2021" as home page without sidebar
  ;; :default-home {:page "Jun 3rd, 2021"}
  ;; 3. Setup page "home" as home page with multiple pages in sidebar
- :default-home {:page "README" :sidebar ["contents"]}
+ :default-home {:page "README" :sidebar ["MenuBar"]}
 
  ;; Tell logseq to use a specific folder in the repo as a default location for notes
  ;; if not specified, notes are stored in `pages` directory
@@ -92,7 +96,7 @@
  ;;  :editor/down            ["ctrl+j" "down"]
  ;;  :editor/left            ["ctrl+h" "left"]
  ;;  :editor/right           ["ctrl+l" "right"]}
- :shortcuts {:editor/open-file-in-default-app "meta+d meta+a", :editor/open-file-in-directory "meta+d meta+d"}
+ :shortcuts {}
 
  ;; By default, pressing `Enter` in the document mode will create a new line.
  ;; Set this to `true` so that it's the same behaviour as the usual outliner mode.
@@ -172,7 +176,8 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 50
- :favorites ["python-风变" "python-风变-1-基础语法" "编程入门-学习群-简介" "git的3个重要的全局配置" "Vercel常用命令" "W1-环境部署" "V2Ray" "历史卡片日志" "nobelium" "学习目标" "README" "书单" "Git" "Logseq" "MyRSS" "从WorkFlowy迁移过来的卡片"]
+
+ :favorites ["编程入门-学习群-简介" "W1-环境部署" "W2-Python基本语法" "git的3个重要的全局配置" "Vercel常用命令" "V2Ray" "学习目标" "书单" "Git" "Logseq"]
  :journal/page-title-format "yyyy-MM-dd"
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
