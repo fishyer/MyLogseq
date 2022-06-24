@@ -1,8 +1,0 @@
-- [第1关高效办公导学课.html](file:///E:\BaiduNetdiskDownload\python-风变-2021\3-自动化办公\第1关高效办公导学课.html)
-- [第2关openpyxl基础知识.html](file:///E:\BaiduNetdiskDownload\python-风变-2021\3-自动化办公\第2关openpyxl基础知识.html)
-- [第3关表格读写.html](file:///E:\BaiduNetdiskDownload\python-风变-2021\3-自动化办公\第3关表格读写.html)
-- [第4关筛选匹配.html](file:///E:\BaiduNetdiskDownload\python-风变-2021\3-自动化办公\第4关筛选匹配.html)
-- [第5关设置Excel样式.html](file:///E:\BaiduNetdiskDownload\python-风变-2021\3-自动化办公\第5关设置Excel样式.html)
-- [第6关批量发送email.html](file:///E:\BaiduNetdiskDownload\python-风变-2021\3-自动化办公\第6关批量发送email.html)
-- [第7关处理Word文件.html](file:///E:\BaiduNetdiskDownload\python-风变-2021\3-自动化办公\第7关处理Word文件.html)
-- [第8关高效办公练习场.html](file:///E:\BaiduNetdiskDownload\python-风变-2021\3-自动化办公\第8关高效办公练习场.html)
