@@ -4,7 +4,7 @@
 	- [[VPS]]
 		- [[搬瓦工]]
 		- [[RackNerd]]
-	- [[shell]]
+	- [[MyLogNote/share/shell]]
 	-
 - 常用命令
 	- sed
@@ -17,7 +17,7 @@
 - 其它
 
 - Linux
-- [[shell]]
+- [[MyLogNote/share/shell]]
 -
 - [[crontab]]
 - 常用shell命令
